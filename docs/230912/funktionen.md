@@ -10,4 +10,6 @@ LEGO-Strassenplatten.
 
 ![Beispiel Lego Strassenplatten](images/beispiel_strassenplatten.jpg)
 
-Für die Aufgaben steht ein entsprechendes Jupyter Notebook zur Verfügung.
+Für die Aufgaben steht ein entsprechendes
+[Jupyter Notebook](https://nbviewer.org/github/I-gW-23-27/Skript/blob/main/docs/230912/Strassenplatten.ipynb)
+zur Verfügung.
