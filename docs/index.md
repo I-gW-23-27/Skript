@@ -12,7 +12,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 22/08/2023 | [Systemeinrichtung](230822/01_grundeinrichtung.md) |         
 | 29/08/2023 | [Variablen](230829/02_variablen.md)	      |             
 | 05/09/2023 | [Einführung PyTamaro](230905/pytamaro.md) |	       
-| 12/09/2023 | Einfache Funktionen	|       
+| 12/09/2023 | [Einfache Funktionen](230912/funktionen.md)	|       
 | 19/09/2023 | Schleifen	 |      
 | 26/09/2023 | Listen |	
 | 24/10/2023 | Refactoring	               |
