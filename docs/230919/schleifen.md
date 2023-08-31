@@ -14,5 +14,9 @@ im Sportunterricht) und Wiederholungen, die enden, sobald eine bestimmte
 Bedingung erfüllt ist (unregelmässige Verben im Französischunterricht
 wiederholen, bis man sie auswendig kann).
 
-Das Jupyter Notebook Bahnhofsuhr soll in die Wiederholungen mit
+Das
+[Jupyter Notebook Bahnhofsuhr](https://nbviewer.org/github/I-gW-23-27/Skript/blob/main/docs/230919/Bahnhofsuhr.ipynb)
+soll in die Wiederholungen mit
 vorgegebener Anzahl Wiederholungen einführen.
+
+[Zurück zur Übersicht](https://i-gw-23-27.github.io/Skript/)
