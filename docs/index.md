@@ -14,7 +14,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 05/09/2023 | [Einführung PyTamaro](230905/pytamaro.md) |	       
 | 12/09/2023 | [Einfache Funktionen](230912/funktionen.md)	|       
 | 19/09/2023 | [Schleifen](230919/schleifen.md)	 |      
-| 26/09/2023 | Listen |	
+| 26/09/2023 | [Listen](230926/listen.md) |	
 | 24/10/2023 | Refactoring	               |
 | 31/10/2023 | Test "Einführung Informatik" |
 | 07/11/2023 | Bedingte Verzweigungen	   |
