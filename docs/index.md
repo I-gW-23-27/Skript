@@ -17,9 +17,9 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 26/09/2023 | [Listen](230926/listen.md) |	
 | 24/10/2023 | [Prüfungsvorbereitung](231024/pruefungsbedingungen.md) |
 | 31/10/2023 | Test "Einführung Informatik" |
-| 07/11/2023 | Bedingte Verzweigungen	   |
-| 14/11/2023 | Input und Output	           |
-| 28/11/2023 | Aussagenlogik	            |   
+| 07/11/2023 | Aussagenlogik	   |
+| 14/11/2023 | Bedingte Verzweigungen	           |
+| 28/11/2023 | Input und Output	            |   
 | 05/12/2023 | Binärsystem	               |
 | 12/12/2023 | Anwendungsprogramm Zinsrechnung	|
 | 19/12/2023 | Selbstständiges Programm für die Berechnung von Zinsen auf Tagesbasis	|
