@@ -16,7 +16,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 19/09/2023 | [Schleifen](230919/schleifen.md)	 |      
 | 26/09/2023 | [Listen](230926/listen.md) |	
 | 24/10/2023 | [Prüfungsvorbereitung](231024/pruefungsbedingungen.md) |
-| 31/10/2023 | Test "Einführung Informatik" |
+| 31/10/2023 | [Test "Einführung Informatik"](https://nbviewer.org/github/I-gW-23-27/Skript/blob/main/docs/231031/Musterloesung.ipynb) |
 | 07/11/2023 | Aussagenlogik	   |
 | 14/11/2023 | Bedingte Verzweigungen	           |
 | 28/11/2023 | Input und Output	            |   
