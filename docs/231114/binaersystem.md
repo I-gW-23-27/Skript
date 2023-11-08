@@ -11,5 +11,5 @@ $$127 = 7 \cdot 1 + 2 \cdot
 Genau gleich funktioniert das Binärsystem. Dabei wird lediglich mit der
 Basis $2$ gerechnet. Als Beispiel dient hier die Binärzahl 101010.
 
-$$[101010]_2 = [0 \cdot 2^0 + 1 \cdot 2^1 + 0 \cdot 2^2 + 1 \cdot 2^3 + 0
-\cdot 2^4 + 1 \cdot 2^5]_{10} = [2 + 8 + 32]_{10} = [42]_{10}$$
+$$101010 = 0 \cdot 2^0 + 1 \cdot 2^1 + 0 \cdot 2^2 + 1 \cdot 2^3 + 0
+\cdot 2^4 + 1 \cdot 2^5 = 2 + 8 + 32 = 42$$
