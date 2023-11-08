@@ -51,3 +51,6 @@ $$2 div 2 = 1$$
 $$1 mod 2 = 1 \rightarrow 101010$$
 
 $$1 div 2 = 0$$
+
+Die Beschreibung der Vorgehensweise für die Umrechnung der Dezimalzahl
+in eine Binärzahl ist ein Algorithmus.
