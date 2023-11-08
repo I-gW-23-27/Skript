@@ -29,14 +29,25 @@ ganzzahligen Division Null ist.
 Als Beispiel nehmen wir wiederum die Dezimalzahl 42.
 
 $$42 mod 2 = 0 \rightarrow 0$$
+
 $$42 div 2 = 21$$
+
 $$21 mod 2 = 1 \rightarrow 10$$
+
 $$21 div 2 = 10$$
+
 $$10 mod 2 = 0 \rightarrow 010$$
+
 $$10 div 2 = 5$$
+
 $$5 mod 2 = 1 \rightarrow 1010$$
+
 $$5 div 2 = 2$$
+
 $$2 mod 2 = 0 \rightarrow 01010$$
+
 $$2 div 2 = 1$$
+
 $$1 mod 2 = 1 \rightarrow 101010$$
+
 $$1 div 2 = 0$$
