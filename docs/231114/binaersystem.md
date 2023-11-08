@@ -73,6 +73,7 @@ präsentieren.
 
 - die in Python integrierten Funktionen zur Zahlenkonversion dürfen
   nicht verwendet werden
+- als Vereinfachung werden die Zahlen der Funktion als Liste übergeben
 - das Jupyter Notebook soll nach dem Schema
   YYMMDD_NAME_Zahlensysteme.ipynb benannt werden
 - im Jupyter Notebook soll neben den beiden Funktionen noch festgehalten
