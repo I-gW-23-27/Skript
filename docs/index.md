@@ -18,9 +18,9 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 24/10/2023 | [Prüfungsvorbereitung](231024/pruefungsbedingungen.md) |
 | 31/10/2023 | [Test "Einführung Informatik"](https://nbviewer.org/github/I-gW-23-27/Skript/blob/main/docs/231031/Musterloesung.ipynb) |
 | 07/11/2023 | [Aussagenlogik](231107/231107_logik.md)	   |
-| 14/11/2023 | Bedingte Verzweigungen	           |
-| 28/11/2023 | Input und Output	            |   
-| 05/12/2023 | Binärsystem	               |
+| 14/11/2023 | Binärsystem	           |
+| 28/11/2023 |   Bedingte Verzweigungen          |   
+| 05/12/2023 | 	Input und Output	               |
 | 12/12/2023 | Anwendungsprogramm Zinsrechnung	|
 | 19/12/2023 | Selbstständiges Programm für die Berechnung von Zinsen auf Tagesbasis	|
 | 09/01/2024 | Assertions	|
