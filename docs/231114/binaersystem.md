@@ -1,5 +1,7 @@
 # Das Binärsystem
 
+## Aufbau von Binärzahlen
+
 Das dezimale Zahlensystem ist allen vertraut. Dabei hat man sehr früh im
 Schulunterricht gelernt, dass jede Zahl zwei Werte zum Ausdruck bringt -
 einerseits den Wert der Ziffer und andererseits den Wert der Stelle.
@@ -13,6 +15,8 @@ Basis $2$ gerechnet. Als Beispiel dient hier die Binärzahl 101010.
 
 $$101010 = 0 \cdot 2^0 + 1 \cdot 2^1 + 0 \cdot 2^2 + 1 \cdot 2^3 + 0
 \cdot 2^4 + 1 \cdot 2^5 = 2 + 8 + 32 = 42$$
+
+## Umrechnen von Dezimalzahlen in Binärzahlen
 
 Um eine Dezimalzahl in eine Binärzahl umzurechnen, geht man
 folgendermassen vor:
@@ -53,4 +57,24 @@ $$1 mod 2 = 1 \rightarrow 101010$$
 $$1 div 2 = 0$$
 
 Die Beschreibung der Vorgehensweise für die Umrechnung der Dezimalzahl
-in eine Binärzahl ist ein Algorithmus.
+in eine Binärzahl ist ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus#Definition).
+
+## Aufgabenstellung
+
+Sie kennen jetzt die Vorgehensweise für die Konversion von Zahlen
+zwischen dem Binär- und dem Dezimalsystem.
+
+Ich will, dass Sie die Umrechnungsmethoden (in beide Richtungen) in
+einem Jupyter Notebook selber Programmieren.
+
+Programmieren Sie eine Funktion `binaer2dezimal()` sowie eine Funktion
+`dezimal2binaer()` und halten Sie sich bereit, Ihre Lösung zu
+präsentieren.
+
+- die in Python integrierten Funktionen zur Zahlenkonversion dürfen
+  nicht verwendet werden
+- das Jupyter Notebook soll nach dem Schema
+  YYMMDD_NAME_Zahlensysteme.ipynb benannt werden
+- im Jupyter Notebook soll neben den beiden Funktionen noch festgehalten
+  werden, wie vorgegangen worden ist
+- das Jupyter Notebook ist am 18. November 23 abzugeben
