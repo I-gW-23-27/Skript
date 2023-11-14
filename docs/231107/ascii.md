@@ -1,4 +1,6 @@
-# Die ASCII-Tabelle
+# Zeichencodierung
+
+## Die ASCII-Tabelle
 
 Die
 [ASCII-Tabelle](https://www.torsten-horn.de/techdocs/ascii.htm)
@@ -18,3 +20,23 @@ dargestellt werden.
 1101100 1100100 100001
 
 So kann Text mit Nullen und Einsen dargestellt werden.
+
+## Unicode
+
+Die Zeichencodierung mit der ASCII Tabelle erlaubt lediglich die
+Darstellung des lateinischen Alphabets. Dies ist unzureichend. Nach
+mehreren Zwischenschritten werden heute die darstellbaren Zeichen mit
+der
+[Unicode Tabelle](https://home.unicode.org/charts/)
+codiert. Die Unicode Tabelle codiert die Zeichen in
+$17 \cdot 2^{16}$ Zeichen. Damit ist es theoretisch möglich,
+mehr als eine Million Zeichen zu codieren. Die Zeichen werden dabei mit
+einer Hexadezimalzahl und vorangestelltem U+ beschrieben. Das grosse
+lateinische A wird so zu `U+0041`. Dabei entspricht das hexadezimale 41
+dem dezimalen 65.
+
+"Hello World!" in Unicode ist entsprechend U+0048 U+0065 U+006C  U+006C
+U+006F U+0020 U+0057 U+0065 U+0072 U+006C U+0064 U+0041.
+
+Die grosse Anzahl möglicher Zeichen lässt es ausserdem zu, Emojis in
+Unicode zu codieren (U+1F609).
