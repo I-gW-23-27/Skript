@@ -27,7 +27,7 @@ Die Zeichencodierung mit der ASCII Tabelle erlaubt lediglich die
 Darstellung des lateinischen Alphabets. Dies ist unzureichend. Nach
 mehreren Zwischenschritten werden heute die darstellbaren Zeichen mit
 der
-[Unicode Tabelle](https://home.unicode.org/charts/)
+[Unicode Tabelle](https://home.unicode.org)
 codiert. Die Unicode Tabelle codiert die Zeichen in
 $17 \cdot 2^{16}$ Zeichen. Damit ist es theoretisch möglich,
 mehr als eine Million Zeichen zu codieren. Die Zeichen werden dabei mit
