@@ -22,7 +22,7 @@ Um eine Dezimalzahl in eine Binärzahl umzurechnen, geht man
 folgendermassen vor:
 
 - die Dezimalzahl wird modulo ($mod$) zwei gerechnet
-- das Resultat der Modulorechnung (0 oder 1) wird auf die Stelle rechts neben der letzten
+- das Resultat der Modulorechnung (0 oder 1) wird auf die Stelle links neben der letzten
   eingetragenen Stelle eingetragen
 - die Dezimalzahl wird ganzzahlig ($div$) durch zwei geteilt
 - das Resultat ist die neue Dezimalzahl
