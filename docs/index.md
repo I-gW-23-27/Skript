@@ -30,4 +30,8 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 Die Note wird aus dem Durchschnitt der beiden schriftlichen Prüfungen
 sowie der Benotung der mündlichen Beteiligung berechnet. Der
-Durchschnitt der Prüfungen zählt zu 90%, die mündliche Beteiligung zu 10%.
+Durchschnitt der Prüfungen zählt zu 90%, die mündliche Beteiligung zu
+10%.
+
+Falls jemand eine persönliche Besprechung wünscht, [kann er sich hier für
+eine Sprechstunde anmelden](https://calendar.app.google/B6ZDE2UtWVfXkoo58).
