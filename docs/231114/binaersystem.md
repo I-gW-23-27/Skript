@@ -80,3 +80,7 @@ präsentieren.
 - im Jupyter Notebook soll neben den beiden Funktionen noch festgehalten
   werden, wie vorgegangen worden ist
 - das Jupyter Notebook ist am 18. November 23 abzugeben
+
+## Musterlösung
+
+[Hier finden Sie eine Musterlösung für die Aufgabenstellung](musterloesung.ipynb).
