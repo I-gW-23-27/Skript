@@ -83,4 +83,4 @@ präsentieren.
 
 ## Musterlösung
 
-Die Musterlösung finden Sie hier.
+Die Musterlösung finden Sie [hier](konverter.ipynb).
