@@ -20,7 +20,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 07/11/2023 | [Aussagenlogik](231107/231107_logik.md)	   |
 | 14/11/2023 | [Binärsystem](231114/binaersystem.md)	           |
 | 28/11/2023 |  [Input](231128/input_intro.md)          |   
-| 05/12/2023 | 	Input und Output	               |
+| 05/12/2023 | 	[Zinsrechnen](231204/zinsrechnen.md)	               |
 | 12/12/2023 | Anwendungsprogramm Zinsrechnung	|
 | 19/12/2023 | Selbstständiges Programm für die Berechnung von Zinsen auf Tagesbasis	|
 | 09/01/2024 | Assertions	|
