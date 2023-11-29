@@ -19,4 +19,5 @@ März und April, 23 Tage im Mai).
 
 Gesucht ist also ein Programm, das basierend auf dem Kapital, dem
 Zinssatz und der Zeitspanne den Zins berechnet. Die dafür erforderlichen
-Grundlagen finden sich in diesem Notebook.
+Grundlagen finden sich in diesem
+[Notebook](https://nbviewer.org/github/I-gW-23-27/Skript/blob/main/docs/231204/zinsrechnen.ipynb).
