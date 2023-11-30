@@ -15,7 +15,9 @@ mit je 30 Tagen gerechnet. Wenn also die erwähnten CHF 2'500 vom 15.
 Januar bis zum 23. Mai zur Verfügung stehen, lautet die Berechnung
 $\frac{\frac{2500 \cdot 5}{100}}{360} \cdot (15 + 3 \cdot 30 + 23) =
 44.44$ (15 Tage bis Ende Januar, 3 mal 30 Tage für die Monate Februar,
-März und April, 23 Tage im Mai).
+März und April, 23 Tage im Mai). Wie die Situation aussieht, wenn das
+Kapital über den Jahreswechsel hinaus auf dem Konto liegt, wird zu eine
+späteren Zeitpunkt besprochen.
 
 Gesucht ist also ein Programm, das basierend auf dem Kapital, dem
 Zinssatz und der Zeitspanne den Zins berechnet. Die dafür erforderlichen
