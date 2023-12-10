@@ -24,5 +24,5 @@ Zinssatz und der Zeitspanne den Zins berechnet. Die dafür erforderlichen
 Grundlagen finden sich in diesem
 [Notebook](https://nbviewer.org/github/I-gW-23-27/Skript/blob/main/docs/231204/zinsrechnen.ipynb).
 
-Hier
+[Hier](https://nbviewer.org/github/I-gW-23-27/Skript/blob/main/docs/231204/musterloesung_zinsrechnen.ipynb)
 finden Sie eine mögliche Umsetzung der Aufgabenstellung.
