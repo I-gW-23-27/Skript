@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="41cm" height="23cm" viewBox="92 144 816 449" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="713" y="145" width="194.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="713" y="145" width="194.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="810.4" y="164">Datum</text>
+    <rect style="fill: #ffffff" x="713" y="173" width="194.8" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="713" y="173" width="194.8" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="187">+tag</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="203">+monat</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="219">+jahr</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="235">-schaltjahr</text>
+    <rect style="fill: #ffffff" x="713" y="241" width="194.8" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="713" y="241" width="194.8" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="255">+datum_in_tagen()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="271">+anzahl_tage_bis_datum()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="287">-ist_schaltjahr()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="715.5" y="303">-tage_normalisieren()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="439" y="191" width="75.65" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="439" y="191" width="75.65" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="476.825" y="210">Eintrag</text>
+    <rect style="fill: #ffffff" x="439" y="219" width="75.65" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="439" y="219" width="75.65" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="441.5" y="233">+betrag</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="441.5" y="249">+datum</text>
+    <rect style="fill: #ffffff" x="439" y="255" width="75.65" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="439" y="255" width="75.65" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="540.331,227 530.159,227 711.494,227 712.494,227 "/>
+    <polygon style="fill: #000000" points="515.159,227 529.159,222.2 543.159,227 529.159,231.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="515.159,227 529.159,222.2 543.159,227 529.159,231.8 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="620.827" y="224"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="547.159" y="224"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="708.494" y="224"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="201.35" y="177" width="164" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="201.35" y="177" width="164" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="283.35" y="196">Konto</text>
+    <rect style="fill: #ffffff" x="201.35" y="205" width="164" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="201.35" y="205" width="164" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203.85" y="219">+eintraege: list</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203.85" y="235">+saldo: double</text>
+    <rect style="fill: #ffffff" x="201.35" y="241" width="164" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="201.35" y="241" width="164" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203.85" y="255">+eintrag_vornehmen()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203.85" y="271">+saldo_berechnen()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="391.027,227 380.855,227 437.491,227 438.491,227 "/>
+    <polygon style="fill: #000000" points="365.855,227 379.855,222.2 393.855,227 379.855,231.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="365.855,227 379.855,222.2 393.855,227 379.855,231.8 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="409.173" y="224"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="397.855" y="224"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="434.491" y="224"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="174.4" y="331" width="217.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="174.4" y="331" width="217.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="283.35" y="350">Bilanzkonto</text>
+    <rect style="fill: #ffffff" x="174.4" y="359" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="174.4" y="359" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="176.9" y="373">+anfangsbestand</text>
+    <rect style="fill: #ffffff" x="174.4" y="379" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="174.4" y="379" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="176.9" y="393">-anfangsbestand_eintragen()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="283.35,295.742 283.35,294.506 283.35,329.492 283.35,330.492 "/>
+    <polygon style="fill: #ffffff" points="291.35,295.742 283.35,279.742 275.35,295.742 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="291.35,295.742 283.35,279.742 275.35,295.742 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="93" y="445" width="379.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="93" y="445" width="379.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="282.8" y="464">Kontokorrentkonto</text>
+    <rect style="fill: #ffffff" x="93" y="473" width="379.6" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="93" y="473" width="379.6" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="95.5" y="487">+sollzins</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="95.5" y="503">+habenzins</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="95.5" y="519">+laufender_saldo</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="95.5" y="535">+aufgelaufene_zinsen</text>
+    <rect style="fill: #ffffff" x="93" y="541" width="379.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="93" y="541" width="379.6" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="95.5" y="555">+eintrag_vornehmen(eintrag:Eintrag)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="95.5" y="571">+zinsberechnung_zwischen_zwei_daten(start:Datum,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="95.5" y="587">                                    end:Datum)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="283.35,417.744 283.35,430 282.8,430 282.8,444.491 "/>
+    <polygon style="fill: #ffffff" points="291.35,417.744 283.35,401.744 275.35,417.744 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="291.35,417.744 283.35,401.744 275.35,417.744 "/>
+  </g>
+  <g>
+    <rect style="fill: #e5e5e5" x="539" y="326" width="124.95" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="539" y="326" width="124.95" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="601.475" y="345">Erfolgskonto</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="283.35,295.742 283.35,309.5 601.475,309.5 601.475,325.493 "/>
+    <polygon style="fill: #ffffff" points="291.35,295.742 283.35,279.742 275.35,295.742 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="291.35,295.742 283.35,279.742 275.35,295.742 "/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="12cm" viewBox="129 75 219 224" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="156.65" y="75.8" width="164" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="156.65" y="75.8" width="164" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="238.65" y="94.8">Konto</text>
+    <rect style="fill: #ffffff" x="156.65" y="103.8" width="164" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="156.65" y="103.8" width="164" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="159.15" y="117.8">+eintraege: list</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="159.15" y="133.8">+saldo: double</text>
+    <rect style="fill: #ffffff" x="156.65" y="139.8" width="164" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="156.65" y="139.8" width="164" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="159.15" y="153.8">+eintrag_vornehmen()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="159.15" y="169.8">+saldo_berechnen()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="129.7" y="229.8" width="217.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="129.7" y="229.8" width="217.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="238.65" y="248.8">Bilanzkonto</text>
+    <rect style="fill: #ffffff" x="129.7" y="257.8" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="129.7" y="257.8" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="132.2" y="271.8">+anfangsbestand</text>
+    <rect style="fill: #ffffff" x="129.7" y="277.8" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="129.7" y="277.8" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="132.2" y="291.8">-anfangsbestand_eintragen()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="238.65,194.542 238.65,193.306 238.65,228.292 238.65,229.292 "/>
+    <polygon style="fill: #ffffff" points="246.65,194.542 238.65,178.542 230.65,194.542 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="246.65,194.542 238.65,178.542 230.65,194.542 "/>
+  </g>
+</svg>
