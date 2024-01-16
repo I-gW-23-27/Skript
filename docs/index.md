@@ -23,7 +23,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 05/12/2023 | 	[Zinsrechnen](231204/zinsrechnen.md)	               |
 | 12/12/2023 | Anwendungsprogramm Zinsrechnung	|
 | 19/12/2023 | [Kontokorrentkonto](231219/oop.md)	|
-| 09/01/2024 | Assertions	|
+| 09/01/2024 | Prüfungsvorbereitung	|
 | 16/01/2024 | Test "Einführung Informatik zweiter Teil" |	
 
 ## Beurteilung
