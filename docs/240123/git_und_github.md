@@ -1,5 +1,9 @@
 # Anleitung für Git und GitHub
 
+Die folgenden Anleitungen basieren auf dem frei verfügbaren E-Book 
+[Pro Git](https://git-scm.com/book/de/v2)
+von Chacon und Straub.
+
 Die Verwendung von Git und GitHub erfordern ein paar Vorbereitungen.
 Die erforderliche Software muss installiert werden und ein Account für
 GitHub muss angelegt werden. Optional, aber empfehlenswert ist die
@@ -116,3 +120,5 @@ Nach dem Schlüsselwort *commit* folgt eine Hexadezimalzahl die einen
 "Fingerabdruck" für den *Commit* darstellt. Die beiden Schlüsslworte
 *Author* und *Date* sind selbsterklärend. Etwas eingerückt folgt dann
 die Commit Nachricht.
+
+Weitere Erklärungen folgen in einer Woche.

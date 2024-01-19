@@ -25,13 +25,17 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 19/12/2023 | [Kontokorrentkonto](231219/oop.md)	|
 | 09/01/2024 | Prüfungsvorbereitung	|
 | 16/01/2024 | Test "Einführung Informatik zweiter Teil" |	
+| 22/01/2024 | [Versionskontrolle](240123/git_und_github.md) |
 
 ## Beurteilung
 
 Die Note wird aus dem Durchschnitt der beiden schriftlichen Prüfungen
 sowie der Benotung der mündlichen Beteiligung berechnet. Der
 Durchschnitt der Prüfungen zählt zu 90%, die mündliche Beteiligung zu
-10%.
+10%.  
+Ab dem zweiten Semester wird konstruktive Kritik an den Unterlagen,
+welche durch einen Pull Request eingebracht wird, mit Maximal einem
+Notenpunkt auf die jeweils thematisch passende Prüfung angerechnet.
 
 Falls jemand eine persönliche Besprechung wünscht, [kann er sich hier für
 eine Sprechstunde anmelden](https://calendar.app.google/B6ZDE2UtWVfXkoo58).
