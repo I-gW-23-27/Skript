@@ -48,9 +48,6 @@ Code*. Ausserdem lohnt sich für die bessere Vergleichbarkeit von
 Textversionen die Installation der Erweiterung *Rewrap*. Diese sorgt
 dafür, dass es keine überlagnen Zeilen gibt.
 
-## Einrichten des eigenen Computers für die Arbeit mit GitHub
-
-
 ## Ein Demonstrationsprojekt starten
 
 Loggen Sie sich auf GitHub ein. Oben rechts gibt es einen grünen Knopf
@@ -85,8 +82,37 @@ Im Ordner mit dem Namen des Projektes findet sich Ordner *.git* und ein
 File *README.md*. Am einfachsten ist das Projekt mit Visual Studio Code
 zu bearbeiten.
 
->Um Visual Studio Code auf dem eigenen Computer zu installieren, kann
->die Installationsdatei unter
->[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
->heruntergeladen werden.
+Um das Projekt in Visual Stuido Code zu öffnen, muss man mit Rechtsklick
+auf den Ordner das Kontextmenü öffnen. Dort kann dann ausgewählt werden
+*mit Visual Studio Code öffnen*.
 
+Um die Möglichkeiten von Git auszuprobieren, kann das File *README.md*
+geöffnet werden. Der Text kann nun bearbeitet werden. Wenn ein Abschnitt
+verfasst worden ist, kann er mit einem sogenannten Commit als
+Wiederherstellungspunkt definiert werden. Es gibt verschiedene
+Möglichkeiten, einen solchen Commit zu erstellen. Die allgemeinste
+Variante erfolgt in der *Git Bash*. Dazu muss noch einmal das
+Kontextmenü für den Ordner des Projekts aufgeraufen werden. Diesmal ist
+*Git Bash hier öffnen* auszuwählen. Um den Commit zu erstellen, ist in
+der *Git Bash* der Befehl `git add README.md` einzugeben. Damit wird das
+File *README.md* "gestaged". Das heisst, das File wird für den Commit
+ausgewählt. Der eigentliche Commit wird mit dem Befehl `git commit`
+initiert. Auf diesen Befehl öffnet sich ein Editorfenster. Dort kann
+eine kurze Beschreibung der gespeicherten Änderung verfasst werden.
+Diese Beschreibung ist die *Commit Message*.
+
+Alle gemachten *Commits* können in *Git Bash* mit dem Befehl `git log`
+aufgerufen werden. Alle *Commits* sehen gleich aus:
+
+```
+commit 28410ed1118189fbf284bbc087003780409aca55
+Author: Jacques Mock Schindler <jacques.mock@kbw.ch>
+Date:   Fri Jan 19 20:16:30 2024 +0100
+
+    Was ist ein Commit
+```
+
+Nach dem Schlüsselwort *commit* folgt eine Hexadezimalzahl die einen
+"Fingerabdruck" für den *Commit* darstellt. Die beiden Schlüsslworte
+*Author* und *Date* sind selbsterklärend. Etwas eingerückt folgt dann
+die Commit Nachricht.
