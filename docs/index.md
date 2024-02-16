@@ -9,6 +9,23 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 | Datum | Thema |
 | ----- | ----- |
+| 20.02.2024 | [Versionierung Grundlagen](https://git-scm.com/book/de/v2) |
+| 27.02.2024 | Abschluss GitHub-Instruktion |
+| 05.03.2024 | Algorithmen, Einführung |
+| 12.03.2024 | Algorithmen, Divide & Conquer |
+| 19.03.2024 | Algorithmen: Suchen |
+| 26.03.2024 | Algorithmen: Suchen |
+| 02.04.2024 | Algorithmen: Suchen |
+| 09.04.2024 | Test Algorithmen |
+| 07.05.2024 | Einführung Robotik |
+| 14.05.2024 | Einführung Robotik |
+| 21.05.2024 | Einführung Robotik |
+| 28.05.2024 | Graphen |
+| 04.06.2024 | Graphen |
+| 18.06.2024 | Graphen |
+| 25.06.2024 | Test Robotik und Graphen |
+| 02.07.2024 | Computernetzwerke |
+| 09.07.2024 | Computernetzwerke |
 
 
 ## Beurteilung
