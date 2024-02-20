@@ -1,4 +1,4 @@
-# Skript für den Informatikunterricht in der Klasse 1gW
+# Skript für den Informatikunterricht in der Klasse 1gW im Frühlingssemester 2024
 
 In diesem Repository finden sich die im Obligatorischen Fach Informatik
 in der Klasse 1gW verwendeten Unterlagen.
