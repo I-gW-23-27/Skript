@@ -1,7 +1,7 @@
 # Algorithmen
 
 Der Begriff *Algorithmus* ist aktuell omnipräsent. Oft hat der Begriff
-einen negativen Unterton. Aber was ist ein *Algorithmus*?
+allerdings einen negativen Unterton. Aber was ist ein *Algorithmus*?
 
 Die 
 [Wikipedia definiert den Begriff](https://de.wikipedia.org/wiki/Algorithmus) 
@@ -11,4 +11,16 @@ folgendermassen:
 >eines Problems oder einer Klasse von Problemen. Algorithmen bestehen aus
 >endlich vielen, wohldefinierten Einzelschritten. 
 
-Salopp umformuliert ist ein Algorithmus ein Rezept zum Lösen konkreter Probleme.
+Donald E. Knuth beschreibt im ersten Band seines Fundamentalen sieben
+Bände umfassenden Werkes *"The Art of Computer Programming"* die
+Herkunft des Begriffes. Es handelt sich um die mit der Zeit entstellte
+Form des letzten Teils des Namens von *Abu 'Abd Allah Muhammad ibn Musa
+al-Khwarizmi*[^1].
+
+Salopp umformuliert ist ein Algorithmus ein Rezept zum Lösen konkreter
+Probleme. 
+
+## Algorithmen in der Informatik
+
+[^1]: Knuth, Donald Ervin; The Art of Computer Programming (Fundamental
+    Algorithms); 3rd ed.; Bd. I.; Reading, Mass: Addison-Wesley, 1997; Seite. 1.
