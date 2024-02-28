@@ -35,3 +35,12 @@ unterste Zeile der Pfad zum Ordner, in dem das Terminalfenster geöffnet
 wurde (im Beispiel `C:\Users\username\Schule`) abgeschlossen mit dem
 Eingabeprompt (`>`).  
 
+Als erstes gehen wird davon aus, dass eine Datei `text.md`, welche im
+Ordner *Schule* gespeichert ist, in ein Word-Dokument konvertiert werden
+soll. Dazu wird nach dem Eingabeprompt der Befehl
+
+```bash
+pandoc -o text.docx text.md
+```
+
+eingegeben und mit Enter abgeschlossen.
