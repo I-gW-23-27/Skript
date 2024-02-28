@@ -30,11 +30,11 @@
     </text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="307.25" y="289.5" width="83.5" height="53"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="307.25" y="289.5" width="83.5" height="53"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="349" y="311.9">
-      <tspan x="349" y="311.9">m ← n</tspan>
-      <tspan x="349" y="327.9">n ← r </tspan>
+    <rect style="fill: #ffffff" x="307.25" y="328.5" width="83.5" height="53"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="307.25" y="328.5" width="83.5" height="53"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="349" y="350.9">
+      <tspan x="349" y="350.9">m ← n</tspan>
+      <tspan x="349" y="366.9">n ← r </tspan>
     </text>
   </g>
   <g>
@@ -68,12 +68,12 @@
     <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="182.561,536.882 187.561,546.882 192.561,536.882 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="239.732,400.917 239.732,402 349,402 349,344.736 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="354,353.618 349,343.618 344,353.618 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="239.732,400.917 239.732,402 349,402 349,383.736 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="354,392.618 349,382.618 344,392.618 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="349,289.5 349,237 288,237 288,236.832 222.534,236.832 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="231.416,231.832 221.416,236.832 231.416,241.832 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="349,328.5 349,315 288,315 288,315.164 226.18,315.164 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="235.062,310.164 225.062,315.164 235.062,320.164 "/>
   </g>
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="243.166" y="396.334">
     <tspan x="243.166" y="396.334">nein</tspan>
