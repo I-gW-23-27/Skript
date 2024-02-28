@@ -43,3 +43,10 @@ werden:
 findet sich eine Anleitung. Es wird insbesondere auch beschrieben, wie
 Code-Zellen zum erstellen von Grafiken in einer Präsentation
 ausgeblendet werden.
+
+## Unicode Zeichen in Dia Diagrammen
+
+Um mathematische Formeln in Dia zu schreiben, müssen die Zeichen mit
+Unicode eingegeben werden. Dazu muss das u aus Unicode mit `Ctrl` +
+`Shift` + `u` eingegeben werden. Dann kommt der Wert hinter dem +. Die
+ganze Eingabe ist mit Enter abzuschliessen.
