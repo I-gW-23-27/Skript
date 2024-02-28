@@ -66,6 +66,7 @@ Tabelle in welcher Schlaufe für Schlaufe die Werte für die Variablen $m$
 und $n$ eingetragen sind.
 
 
+Eine Übung in Python findet sich in diesem Jupyter Notebook.
 
 
 [^1]: Knuth, Donald Ervin; The Art of Computer Programming (Fundamental
