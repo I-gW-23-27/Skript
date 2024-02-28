@@ -45,6 +45,19 @@ Der Algorithmus E kann in das folgende Flussdiagramm übersetzt werden.
 
 ![Flussdiagramm Algorithmus E](Algorithmus_E.svg)
 
+Die graphische Darstellung von Algorithmus E als Flussdiagramm hilft,
+eine entsprechende Funktion in Python zu implementieren.
+
+```Python
+def euclid(m : int, n : int) -> int:
+    r = m % n
+    while r > 0:
+        m = n
+        n = r
+        r = m % n
+    return n
+```
+
 
 
 
