@@ -22,5 +22,18 @@ Probleme.
 
 ## Algorithmen in der Informatik
 
+Wie Alogrithmen in der Informatik verwendet werden, soll am Beispiel der
+Berechnung des grössten gemeinsamen Teilers nach der Beschreibung von
+Euklid ([Euklidischer
+Algorithmus](https://de.wikipedia.org/wiki/Euklidischer_Algorithmus))
+gezeigt werden.
+
+**Algorithmus E** (Euklidischer Algorithmus). Gegeben seien zwei
+positive natürliche Zahlen $m$ und $n$. Gesucht ist deren grösster
+gemeinsamer Teiler.
+
+**E1.** \[Rest berechnen.\] Teile $m$ durch $n$. Der Rest sei $r$. (Es
+gilt $0 \leq r < n$.) 
+
 [^1]: Knuth, Donald Ervin; The Art of Computer Programming (Fundamental
     Algorithms); 3rd ed.; Bd. I.; Reading, Mass: Addison-Wesley, 1997; Seite. 1.
