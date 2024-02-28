@@ -39,7 +39,17 @@ gilt $0 \leq r < n$.)
 $n$ ist die Lösung.
 
 **E3.** \[Reduzieren.\] Setze $m \leftarrow n, n \leftarrow r$ und gehe
-zurück zu Schritt E1.
+zurück zu Schritt E1.[^2]
+
+Der Algorithmus E kann in das folgende Flussdiagramm übersetzt werden.
+
+![Flussdiagramm Algorithmus E](Algorithmus_E.svg)
+
+
+
 
 [^1]: Knuth, Donald Ervin; The Art of Computer Programming (Fundamental
-    Algorithms); 3rd ed.; Bd. I.; Reading, Mass: Addison-Wesley, 1997; Seite. 1.
+    Algorithms); 3rd ed.; Bd. I.; Reading, Mass: Addison-Wesley, 1997;
+    Seite. 1.
+    
+[^2]: Knuth, aaO., Seite 2 f.
