@@ -43,4 +43,9 @@ soll. Dazu wird nach dem Eingabeprompt der Befehl
 pandoc -o text.docx text.md
 ```
 
-eingegeben und mit Enter abgeschlossen.
+eingegeben und mit Enter abgeschlossen. `-o text.docx` kann dabei
+gedanklich mit "erstelle die Datei `text.docx` als Output übersetzt
+werden.  
+Durch die Angabe des Dateityps in der Endung der Output-Datei wird
+Pandoc mitgeteilt, in welches Format die Eingabedatei konvertiert werden
+soll. 
