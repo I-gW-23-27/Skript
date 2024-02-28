@@ -48,4 +48,15 @@ gedanklich mit "erstelle die Datei `text.docx` als Output übersetzt
 werden.  
 Durch die Angabe des Dateityps in der Endung der Output-Datei wird
 Pandoc mitgeteilt, in welches Format die Eingabedatei konvertiert werden
-soll. 
+soll. Pandoc stellt eine 
+[ausführliche Anleitung](https://pandoc.org/MANUAL.html) 
+aller möglicher Konversionen zur Verfügung.
+
+Falls eine Datei in ein PDF konvertiert werden soll, muss auf dem
+Rechner 
+[LaTeX](https://de.wikipedia.org/wiki/LaTeX) 
+installiert sein. Es gibt verschiedenen Versionen dieses
+Textverarbeitungsprogramms. Am einfachsten wird 
+[MiKTEX](https://miktex.org/) 
+installiert. Im Downloadbereich findet sich eine Schritt für Schritt
+Anleitung zur Installation.
