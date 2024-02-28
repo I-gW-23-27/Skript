@@ -58,6 +58,13 @@ def euclid(m : int, n : int) -> int:
     return n
 ```
 
+## Aufgabe
+
+Berechnen Sie von Hand nach dem Euklidischen Algorithmus den grössten
+gemeinsamen Teiler für die Zahlen 544 und 119.  Erstellen Sie eine
+Tabelle in welcher Schlaufe für Schlaufe die Werte für die Variablen $m$
+und $n$ eingetragen sind.
+
 
 
 
