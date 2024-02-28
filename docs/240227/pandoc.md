@@ -27,8 +27,10 @@ Dazu navigiert man mit dem Windows Explorer (Dateimanager) in dieses
 Verzeichnis (für die Anleitung wird davon ausgegangen, dass die Datei im
 Verzeichnis `C:\Users\username\Schule` liegt). Wenn der Ordner *Schule*
 geöffnet ist, kann ein Terminalfenster geöffnet werden, indem man mit
-der Tastenkombination `Ctrl` + `l` den Inhalt der Adresszeile von
-Windows Explorer markiert und mit der Buchstabenfolge `cmd` überschreibt
+der Tastenkombination `Ctrl` + `l` (Buchstabe L in Kleinschreibung) den
+Inhalt der Adresszeile von 
+Windows Explorer markiert und mit der Buchstabenfolge `cmd` (Abkürzung
+für Command) überschreibt
 und die Eingabe mit der Enter-Taste abschliesst.  
 Danach öffnet sich ein Terminalfenster. Im Terminalfenster steht als
 unterste Zeile der Pfad zum Ordner, in dem das Terminalfenster geöffnet
@@ -57,6 +59,7 @@ Rechner
 [LaTeX](https://de.wikipedia.org/wiki/LaTeX) 
 installiert sein. Es gibt verschiedenen Versionen dieses
 Textverarbeitungsprogramms. Am einfachsten wird 
-[MiKTEX](https://miktex.org/) 
-installiert. Im Downloadbereich findet sich eine Schritt für Schritt
-Anleitung zur Installation.
+[MiKTeX](https://miktex.org/) 
+installiert. Im Downloadbereich findet sich eine 
+Anleitung, welche einem Schritt für Schritt durch den
+Installationsprozess führt.
