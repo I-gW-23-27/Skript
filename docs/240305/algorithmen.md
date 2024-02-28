@@ -1,7 +1,9 @@
 # Algorithmen
 
 Der Begriff *Algorithmus* ist aktuell omnipräsent. Oft hat der Begriff
-allerdings einen negativen Unterton. Aber was ist ein *Algorithmus*?
+allerdings einen negativen Unterton weil er mit etwas intransparenten
+und unkontrollierbaren in Verbindung gebracht wird. Aber was ist
+eigentlich ein *Algorithmus*?
 
 Die 
 [Wikipedia definiert den Begriff](https://de.wikipedia.org/wiki/Algorithmus) 
@@ -11,11 +13,12 @@ folgendermassen:
 >eines Problems oder einer Klasse von Problemen. Algorithmen bestehen aus
 >endlich vielen, wohldefinierten Einzelschritten. 
 
-Donald E. Knuth beschreibt im ersten Band seines Fundamentalen sieben
-Bände umfassenden Werkes *"The Art of Computer Programming"* die
+Donald E. Knuth beschreibt im ersten Band seines fundamentalen, sieben
+Bände umfassenden, Werkes *"The Art of Computer Programming"* die
 Herkunft des Begriffes. Es handelt sich um die mit der Zeit entstellte
 Form des letzten Teils des Namens von *Abu 'Abd Allah Muhammad ibn Musa
-al-Khwarizmi*[^1].
+al-Khwarizmi*[^1], eines persischen Mathematikers aus dem 9.
+Jahrhundert.
 
 Salopp umformuliert ist ein Algorithmus ein Rezept zum Lösen konkreter
 Probleme. 
@@ -23,10 +26,11 @@ Probleme.
 ## Algorithmen in der Informatik
 
 Wie Alogrithmen in der Informatik verwendet werden, soll am Beispiel der
-Berechnung des grössten gemeinsamen Teilers nach der Beschreibung von
-Euklid ([Euklidischer
-Algorithmus](https://de.wikipedia.org/wiki/Euklidischer_Algorithmus))
-gezeigt werden.
+Berechnung des grössten gemeinsamen Teilers mit dem 
+[euklidischen Algorithmus](https://de.wikipedia.org/wiki/Euklidischer_Algorithmus)
+gezeigt werden. Der griechische Mathematiker Euklid, nach dem der
+Algorithmus benannt ist, hat das Verfahren im 3. Jahrhundert v. Chr.
+beschrieben.
 
 **Algorithmus E** (Euklidischer Algorithmus). Gegeben seien zwei
 positive natürliche Zahlen $m$ und $n$. Gesucht ist deren grösster
