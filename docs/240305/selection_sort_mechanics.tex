@@ -3,12 +3,14 @@
 
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{tikz}
-\usetikzlibrary {positioning,
+\usetikzlibrary {arrows.meta,
+                 positioning,
                  shapes.geometric}
 
 \tikzset{
          square/.style={regular polygon, regular polygon sides=4},
          myarrow/.style={-Stealth, line width=0.25mm},
+         doublearrow/.style={arrows={Stealth[length=1.5mm]-Stealth[length=1.5mm]}, line width=0.25mm},
 }
 
 \begin{document}
@@ -37,7 +39,7 @@
     \node[draw, square, right=0cm of c21] (d21) {4};
     \node[draw, square, right=0cm of d21] (e21) {2};
     \node[right= of e21] (e21_text) {Platztausch};
-    \draw[<->] (a21.north) edge [bend left = 90] (c21.north);
+    \draw[doublearrow] (a21.north) .. controls +(up:0.75cm) and +(up:0.75cm) .. (c21.north);
 
 
     % S3.1
@@ -68,7 +70,7 @@
     \node[draw, square, right=0cm of c22] (d22) {4};
     \node[draw, square, right=0cm of d22] (e22) {5};
     \node[right= of e22] (e21_text) {Platztausch};
-    \draw[<->] (b22.north) edge [bend left = 90] (e22.north);
+    \draw[doublearrow] (b22.north) .. controls +(up:0.75cm) and +(up:0.75cm) .. (e22.north);
 
     % S3.2
     \node[fill=Gray,
@@ -101,7 +103,7 @@
     \node[draw, square, right=0cm of d23] (e23) {5};
     \node[right= of e23] (e21_text) {Platztausch};
     \node[above=0.3cm of c23] (c23h) {};
-    \draw[->] (c23h) edge (c23.north);
+    \draw[myarrow] (c23h) edge (c23.north);
 
     % S3.3
     \node[fill=Gray,
@@ -137,7 +139,7 @@
     \node[draw, square, right=0cm of d24] (e24) {5};
     \node[right= of e24] (e24_text) {Platztausch};
     \node[above=0.3cm of d24] (d24h) {};
-    \draw[->] (d24h) edge (d24.north);
+    \draw[myarrow] (d24h) edge (d24.north);
 
     % S3.4
     \node[fill=Gray,
