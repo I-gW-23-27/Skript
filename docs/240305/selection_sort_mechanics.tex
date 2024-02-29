@@ -6,8 +6,13 @@
 \usetikzlibrary {positioning,
                  shapes.geometric}
 
+\tikzset{
+         square/.style={regular polygon, regular polygon sides=4},
+         myarrow/.style={-Stealth, line width=0.25mm},
+}
+
 \begin{document}
-\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
+\begin{tikzpicture}
     % Grundmuster
     \node[draw, square] (a) {3}; 
     \node[draw, square, right=0cm of a] (b) {5};
