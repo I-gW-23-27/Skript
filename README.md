@@ -50,3 +50,30 @@ Um mathematische Formeln in Dia zu schreiben, müssen die Zeichen mit
 Unicode eingegeben werden. Dazu muss das u aus Unicode mit `Ctrl` +
 `Shift` + `u` eingegeben werden. Dann kommt der Wert hinter dem +. Die
 ganze Eingabe ist mit Enter abzuschliessen.
+
+## SVG mit TikZ erstellen
+
+Die `.tex` Datei muss die folgende Struktur aufweisen:
+
+```tex
+\documentclass[dvisvgm]{standalone}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary {positioning,
+                 shapes.geometric}
+
+\begin{document}
+\begin{tikzpicture}
+... 
+\end{tikzpicture}
+\end{document}
+```
+
+Die Konversion der Datei erfolgt mit den zwei Befehlen
+
+```bash
+lualatex --output-format=dvi inputdatei.tex
+
+dvisvgm --no-fonts inputdatei.dvi
+```

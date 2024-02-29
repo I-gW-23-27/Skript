@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="12cm" height="33cm" viewBox="89 100 239 652" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffff" d="M 177.875 101 L 214.125,101 C 219.13,101 223.188,109.954 223.188,121 C 223.188,132.046 219.13,141 214.125,141 L 177.875,141 C 172.87,141 168.813,132.046 168.813,121 C 168.813,109.954 172.87,101 177.875,101z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 177.875 101 L 214.125,101 C 219.13,101 223.188,109.954 223.188,121 C 223.188,132.046 219.13,141 214.125,141 L 177.875,141 C 172.87,141 168.813,132.046 168.813,121 C 168.813,109.954 172.87,101 177.875,101"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="196" y="125">
+      <tspan x="196" y="125">Start</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="129.393,183 263.166,183 248.607,223 114.834,223 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="129.393,183 263.166,183 248.607,223 114.834,223 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="189" y="206.9">
+      <tspan x="189" y="206.9">Liste (unsortiert)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="89.65" y="262.5" width="184.7" height="37"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="89.65" y="262.5" width="184.7" height="37"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="182" y="284.9">
+      <tspan x="182" y="284.9">kleinstes Element suchen</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="129.675" y="346.5" width="102.65" height="37"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="129.675" y="346.5" width="102.65" height="37"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="181" y="368.9">
+      <tspan x="181" y="368.9">list[0] ↔ min</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="131.625" y="422.5" width="98.75" height="37"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="131.625" y="422.5" width="98.75" height="37"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="181" y="444.9">
+      <tspan x="181" y="444.9">Liste kürzen</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="181,492.943 263.113,534 181,575.057 98.8868,534 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="181,492.943 263.113,534 181,575.057 98.8868,534 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="181" y="537.9">
+      <tspan x="181" y="537.9">len(Liste) &gt; 1</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="122.493,629 240.066,629 225.507,669 107.934,669 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="122.493,629 240.066,629 225.507,669 107.934,669 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="174" y="652.9">
+      <tspan x="174" y="652.9">Liste (sortiert)</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 148.375 712 L 185.625,712 C 190.768,712 194.938,720.954 194.938,732 C 194.938,743.046 190.768,752 185.625,752 L 148.375,752 C 143.232,752 139.063,743.046 139.063,732 C 139.063,720.954 143.232,712 148.375,712z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 148.375 712 L 185.625,712 C 190.768,712 194.938,720.954 194.938,732 C 194.938,743.046 190.768,752 185.625,752 L 148.375,752 C 143.232,752 139.063,743.046 139.063,732 C 139.063,720.954 143.232,712 148.375,712"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="167" y="736">
+      <tspan x="167" y="736">Ende</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="196,141 196,162 196.279,162 196.279,180.764 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="191.279,171.882 196.279,181.882 201.279,171.882 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="181.721,223 181.721,242.75 182,242.75 182,260.264 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="177,251.382 182,261.382 187,251.382 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="181,459.5 181,473.222 181,473.222 181,490.707 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="176,481.825 181,491.825 186,481.825 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="181,575.057 181,596 181.279,596 181.279,626.764 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="176.279,617.882 181.279,627.882 186.279,617.882 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="263.113,534 327,534 327,281 276.586,281 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="285.468,276 275.468,281 285.468,286 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="166.721,669 166.721,690.5 167,690.5 167,709.764 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="162,700.882 167,710.882 172,700.882 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="181,303 181,324.75 181,324.75 181,344.264 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="176,335.382 181,345.382 186,335.382 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="181,383.5 181,403 181,403 181,420.264 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="176,411.382 181,421.382 186,411.382 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="275" y="525">
+    <tspan x="275" y="525">ja</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="192" y="590">
+    <tspan x="192" y="590">nein</tspan>
+  </text>
+</svg>
