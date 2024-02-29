@@ -47,7 +47,7 @@ zurück zu Schritt E1.[^2]
 
 Der Algorithmus E kann in das folgende Flussdiagramm übersetzt werden.
 
-![Flussdiagramm Algorithmus E](Algorithmus_E.svg)
+![Flussdiagramm Algorithmus E](euclid_flow_chart.svg)
 
 Die graphische Darstellung von Algorithmus E als Flussdiagramm hilft,
 eine entsprechende Funktion in Python zu implementieren.
