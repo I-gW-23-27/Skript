@@ -1,0 +1,44 @@
+\documentclass[dvisvgm]{standalone}
+
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta,
+                 positioning,
+                 shapes.geometric}
+
+ \tikzset{
+        base/.style={draw, align=center, minimum height=4ex},
+        proc/.style={base, rectangle, text width=8em},
+        io/.style={trapezium, align=center, trapezium left angle=70, 
+                   trapezium right angle=110, draw, text width=8em,
+                   },
+        test/.style={base, align=center, diamond, aspect=2,
+                     %text width=5em
+                     },
+        term/.style={proc, rounded corners},
+        myarrow/.style={-Stealth, line width=0.25mm},
+ }
+
+\begin{document}
+\begin{tikzpicture}
+    \node[draw, term] (a) {Start};
+    \node[draw, io, below= of a] (b) {$m, n$};
+    \node[draw, proc, below= of b] (c) {$m\ mod\ n$};
+    \node[draw, test, below= of c] (d) {$r=0$};
+    \node[draw, io, below= of d] (e) {$n$};
+    \node[draw, term, below= of e] (f) {End};
+
+    \node[draw, proc, above right=0.3cm and 2cm of d] (g) {$m
+    \leftarrow n$\\$n \leftarrow r$};
+
+    \draw[myarrow] (a) edge (b);
+    \draw[myarrow] (b) edge (c);
+    \draw[myarrow] (c) edge (d);
+    \draw[myarrow] (d) edge node[near start, fill=white] {ja} (e);
+    \draw[myarrow] (e) edge (f);
+
+    \draw[myarrow] (d) -| node[near start, fill=white] {nein} (g);
+    \draw[myarrow] (g) |- (c);
+\end{tikzpicture}
+\end{document}
