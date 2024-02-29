@@ -6,3 +6,8 @@
 **/.venv
 **/.ipynb_checkpoints
 *.pyc
+*.dia~
+*.aux
+*.log
+*.dvi
+*.swp
