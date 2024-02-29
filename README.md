@@ -75,5 +75,5 @@ Die Konversion der Datei erfolgt mit den zwei Befehlen
 ```bash
 lualatex --output-format=dvi inputdatei.tex
 
-dvisvgm inputdatei.dvi
+dvisvgm --no-fonts inputdatei.dvi
 ```
