@@ -69,6 +69,17 @@ gemeinsamen Teiler für die Zahlen 544 und 119.  Erstellen Sie eine
 Tabelle in welcher Schlaufe für Schlaufe die Werte für die Variablen $m$
 und $n$ eingetragen sind.
 
+## Musterlösung
+
+Der grösste gemeinsame Teiler für 544 und 119 ist 17.
+
+| Durchlauf | m | n |
+| ---: | ---: | ---: |
+| 0 | 544 | 119 |
+| 1 | 119 | 68 |
+| 2 | 68 | 51 |
+| 3 | 51 | 17 |
+
 
 Eine Übung in Python findet sich in diesem Jupyter Notebook.
 
