@@ -14,5 +14,7 @@ kann am besten am Beispiel einer Kindergeschichte erklärt werden:
 >häts es Truckli gha und id däm Truckli häts es Briefli gha...
 
 Bevor der Algorithmus von Merge Sort besprochen wird, soll am Beispiel
-der gausschen Summenformel gezeigt werden, wie rekursiv implementierte
+der 
+Gaussschen Summenformel
+gezeigt werden, wie rekursiv implementierte
 Problemlösungen funktionieren.
