@@ -13,8 +13,7 @@ kann am besten am Beispiel einer Kindergeschichte erklärt werden:
 >gstande, es isch e mal en Maa gsi, de hät en hole Zah gha. I dem Zah
 >häts es Truckli gha und id däm Truckli häts es Briefli gha...
 
-Bevor der Algorithmus von Merge Sort besprochen wird, soll am Beispiel
-der 
-Gaussschen Summenformel
+Bevor der Algorithmus von Merge Sort besprochen wird, soll verschiedenen
+Beispielen 
 gezeigt werden, wie rekursiv implementierte
 Problemlösungen funktionieren.
