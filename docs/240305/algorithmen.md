@@ -89,7 +89,10 @@ Der grösste gemeinsame Teiler für 544 und 119 ist 17.
 
 
 Eine weiteres Beispiel findet sich in diesem 
-[Jupyter Notebook](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240305/sortieralgorithmen.ipynb).
+[Jupyter
+Notebook](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240305/sortieralgorithmen.ipynb).  
+Die Musterlösung (Stand 7. März 24) findet sich
+[hier](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240305/sortieralgorithmen_muloe_stand_240307.ipynb).
 
 
 [^1]: Knuth, Donald Ervin; The Art of Computer Programming (Fundamental
