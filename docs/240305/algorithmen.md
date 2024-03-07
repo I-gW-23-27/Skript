@@ -1,10 +1,3 @@
----
-title: Einführung des Begriffs Algorithmus
-author: Jacques Mock Schindler
-date: 7. März 2024
-lang: de-CH
----
-
 # Algorithmen
 
 Der Begriff *Algorithmus* ist aktuell omnipräsent. Oft hat der Begriff
