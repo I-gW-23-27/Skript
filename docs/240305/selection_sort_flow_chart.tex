@@ -25,10 +25,10 @@
 \begin{document}
 \begin{tikzpicture}
     \node[draw, term] (a) {Start};
-    \node[draw, io, below= of a] (b) {Sequenz (unsortiert)};
+    \node[draw, io, below= of a] (b) {Sequenz \\ (unsortiert)};
     \node[draw, proc, below= of b] (c) {kleinstes Element suchen};
-    \node[draw, proc, below= of c] (d) {kleinstes Element nach Vorne };
-    \node[draw, proc, below= of d] (e) {Liste kürzen};
+    \node[draw, proc, below= of c] (d) {kleinstes Element nach Vorne tauschen };
+    \node[draw, proc, below= of d] (e) {Sequenz kürzen};
     \node[draw, test, below= of e] (f) {len(Sequenz) > 1};
     \node[draw, io, below= of f] (g) {Sequenz (sortiert)};
     \node[draw, term, below= of g] (h) {End};
