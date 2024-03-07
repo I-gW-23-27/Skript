@@ -15,7 +15,7 @@ Rechenschritt aus dem Vergleich zweier Elemente der Sequenz.
 Das ergibt bei einer Sequenz der Länge $n$ $\frac{n(n-1)}{2}$
 Vergleiche (die Summe von $1+2+3+...+(n-1)$). 
 
-![Visualisierung Vergleichsoperationen](images/selection_sort_komplexity.svg)
+![Visualisierung Vergleichsoperationen](../images/selection_sort_komplexity.svg)
 
 Der Einfachheit halber
 konzentriert man sich für die 
