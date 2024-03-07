@@ -1,0 +1,28 @@
+\documentclass[dvisvgm]{standalone}
+
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta,
+                 positioning,
+                 shapes.geometric}
+
+ \tikzset{
+    square/.style={regular polygon, regular polygon sides=4},
+        base/.style={draw, align=center, minimum height=4ex},
+        proc/.style={base, rectangle, text width=8em},
+        io/.style={trapezium, align=center, trapezium left angle=70, 
+                   trapezium right angle=110, draw, text width=8em,
+                   },
+        test/.style={base, align=center, diamond, aspect=2,
+                     %text width=5em
+                     },
+        term/.style={proc, rounded corners},
+        myarrow/.style={-Stealth, line width=0.25mm},
+ }
+
+\begin{document}
+\begin{tikzpicture}
+
+\end{tikzpicture}
+\end{document}
