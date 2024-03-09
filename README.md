@@ -95,7 +95,10 @@ entstehen.
 
 ### Jupyter Notebook
 
-[Print Ready Notebooks](http://blog.juliusschulz.de/blog/ultimate-ipython-notebook)
+[Print Ready
+Notebooks](http://blog.juliusschulz.de/blog/ultimate-ipython-notebook)
+
+[Learning Scientific Programming with Python](https://scipython.com/)
 
 ### Cyber Security
 
