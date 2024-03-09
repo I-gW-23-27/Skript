@@ -11,9 +11,9 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | ----- | ----- |
 | 20.02.2024 | [Versionierung Grundlagen](https://git-scm.com/book/de/v2) |
 | 27.02.2024 | [Einführung Pandoc](240227/pandoc.md) |
-| 07.03.2024 | [Algorithmen, Einführung](240305/algorithmen.md) |
-| 12.03.2024 | Algorithmen, Divide & Conquer |
-| 19.03.2024 | Algorithmen: Suchen |
+| 07.03.2024 | [Algorithmen: Einführung](240305/algorithmen.md) |
+| 12.03.2024 | Algorithmen: Selection Sort |
+| 19.03.2024 | Algorithmen: Merge Sort |
 | 26.03.2024 | Algorithmen: Suchen |
 | 02.04.2024 | Algorithmen: Suchen |
 | 09.04.2024 | Test Algorithmen |
