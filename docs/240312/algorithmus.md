@@ -1,5 +1,7 @@
 ### Algorithmus: Merge Sort
 
+
+
 **Ziel**: Sortierung einer Sequenz von \(n\) Elementen in aufsteigender Reihenfolge durch rekursive Teilung und Fusionierung.
 
 **Eingabe**: Eine Sequenz von \(n\) Elementen \(A[1 \ldots n]\).
