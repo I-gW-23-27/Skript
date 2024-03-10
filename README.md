@@ -89,6 +89,10 @@ dvisvgm --no-fonts inputdatei.dvi
 Hier soll eine Sammlung interessanter Links für den Informatikunterricht
 entstehen.
 
+### Programmvisualisierung
+
+[Python Tutor](https://pythontutor.com/render.html#mode=edit)
+
 ### Algorithmen
 
 [Visualisierung von Sortieralgorithmen](https://www.toptal.com/developers/sorting-algorithms)
