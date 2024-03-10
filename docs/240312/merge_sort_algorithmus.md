@@ -1,4 +1,7 @@
-### Algorithmus: Merge Sort
+# Merge Sort
+
+Die allgemein Idee bei Merge Sort ist das Zusammenführen (engl. to
+merge) von zwei bereits sortierten Sequenzen. Um dies möglichst einfach 
 
 
 
