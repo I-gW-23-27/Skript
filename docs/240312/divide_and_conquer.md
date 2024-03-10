@@ -1,11 +1,12 @@
-# Merge Sort
+# Divide and Conquer
 
-Merge Sort ist ein Algorithmus der nach dem Prinzip *divide-and-conquer*
-(teile und herrsche)
-arbeitet. Die Idee dieses Prinzips basiert darauf, das Problem in kleinere,
-ähnliche Probleme aufzuteilen. Die kleineren Probleme sind einfacher zu
-lösen. Die Lösungen der verkleinerten
-Probleme werden dann zur Lösung des Ursprungsproblems zusammengesetzt.
+Das Prinzip *divide and conquer* (teile und herrsche) wird am Beispiel
+von Merge Sort - einem Sortieralgorithmus - vorgestellt.
+Dieses Prinzip basiert auf der Idee, das kleine Probleme einfacher zu
+lösen sind als grosse. Deshalb versucht man, das zu lösende Problem in
+Teilprobleme aufzuteilen und diese, kleineren Probleme, zu lösen um
+anschliessend die Teillösungen zu einer Lösung für das Ursprungsproblem
+zusammenzusetzen. 
 
 Diese Idee wird oft durch *Rekursion* umgesetzt. Der Begriff Rekursion
 kann am besten am Beispiel einer Kindergeschichte erklärt werden:
