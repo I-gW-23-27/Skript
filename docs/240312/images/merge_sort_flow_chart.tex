@@ -1,0 +1,45 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+
+\usetikzlibrary{shapes,arrows,positioning}
+
+\begin{document}
+
+\tikzstyle{box} = [draw, rounded corners, minimum width=2cm, minimum height=1cm, text centered];
+
+\begin{tikzpicture}[node distance=2cm]
+
+% Start- und Endknoten
+\node[box] (start) {Start};
+\node[box] (ende) {Ende};
+
+% Teilschritte
+\node[box] (merge) {Teile Array in zwei Hälften und sortiere sie rekursiv};
+\node[box, below=of merge] (check) {Ist Arraylänge 1 oder 0?};
+\node[box, below=of check, yes=ende, no=merge] (ja) {Ja};
+\node[box, below=of check, yes=merge2, no=merge] (nein) {Nein};
+
+% Rekursion
+\node[box, below=of merge2] (sort2) {Sortiere rechte Hälfte};
+
+% Zusammenführen
+\node[box, below=of merge] (merge3) {Führe die beiden sortierten Hälften zusammen};
+
+% Pfeile
+\draw[->] (start) -- (merge);
+\draw[->] (merge) -- (check);
+\draw[->] (check) -- (ja);
+\draw[->] (ja) -- (ende);
+\draw[->] (check) -- (nein);
+\draw[->] (nein) -- (merge2);
+\draw[->] (merge2) -- (sort2);
+\draw[->] (sort2) -- (merge3);
+\draw[->] (merge3) -- (ende);
+
+% Beschriftungen
+\node[above=of merge] {Arraylänge $n > 1$};
+\node[above=of check] {Arraylänge $n \leq 1$};
+
+\end{tikzpicture}
+
+\end{document}
