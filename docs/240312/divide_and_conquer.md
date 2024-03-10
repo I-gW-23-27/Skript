@@ -16,6 +16,9 @@ kann am besten am Beispiel einer Kindergeschichte erklärt werden:
 >gstande, es isch e mal en Maa gsi, de hät en hole Zah gha. I dem Zah
 >häts es Truckli gha und id däm Truckli häts es Briefli gha...
 
+Rekursive Funktionen sind entsprechend Funktionen, die sich selber
+aufrufen. 
+
 Bevor der Algorithmus von Merge Sort besprochen wird, soll an ein paar 
 Beispielen 
 gezeigt werden, wie rekursiv implementierte Problemlösungen funktionieren.
