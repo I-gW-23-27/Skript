@@ -12,7 +12,7 @@ illustriert werden.
 Die Zeitkomplexität eines Algorithmus misst sich in der Anzahl der
 erforderlichen Rechenoperationen. Im Beispiel Selection Sort besteht ein
 Rechenschritt aus dem Vergleich zweier Elemente der Sequenz. 
-Das ergibt bei einer Sequenz der Länge $n$ $\frac{n(n-1)}{2}$
+Das ergibt bei einer Sequenz mit $n$ Elementen $\frac{n(n-1)}{2}$
 Vergleiche (die Summe von $1+2+3+...+(n-1)$). 
 
 ![Visualisierung Vergleichsoperationen](../images/selection_sort_komplexity.svg)
