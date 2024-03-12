@@ -5,7 +5,9 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{amsmath}
 \usepackage{tikz}
-\usetikzlibrary {arrows.meta,
+\usetikzlibrary {angles,
+                 arrows.meta,
+                 calc,
                  positioning,
                  shapes.geometric}
 
@@ -43,5 +45,16 @@
     \draw[myarrow] (d.east) |- node [fill=white] {$3+3$} (c.east);
     \draw[myarrow] (c.east) |- node [fill=white] {$4+6$} (b.east);
     \draw[myarrow] (b.east) |- node [fill=white] {$5+10$} (a.east);
+
+    \coordinate (b') at ($(b.west) + (-2.5cm,0)$);
+    \coordinate (e') at ($(e.west) + (-2.5cm,0)$);
+
+    \draw[myarrow] (b') -- node [fill=white, sloped] {Rekursion} (e');
+
+    \coordinate (b'') at ($(b.east) + (3cm,0)$);
+    \coordinate (e'') at ($(e.east) + (3cm,0)$);
+
+    \draw[myarrow] (e'') -- node [fill=white, sloped] {Returnvalues} (b'');
+
 \end{tikzpicture}
 \end{document}
