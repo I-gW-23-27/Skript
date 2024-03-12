@@ -21,4 +21,7 @@ aufrufen.
 
 Bevor der Algorithmus von Merge Sort besprochen wird, soll an ein paar 
 [Beispielen](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240312/src/rekursion.ipynb) 
-gezeigt werden, wie rekursiv implementierte Problemlösungen funktionieren.
+gezeigt werden, wie rekursiv implementierte Problemlösungen
+funktionieren. Hier finden Sie die illustrierte
+[Musterlösung](src/rekursion_muloe.ipynb)
+(stand 11. März 24).
