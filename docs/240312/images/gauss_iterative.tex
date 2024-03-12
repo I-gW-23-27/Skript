@@ -36,5 +36,23 @@
     \node[right= of a1] (b1) {$+$};
     \node[draw, square, right=of b1, label=below:{$n_1\ (i=1)$}] (c1) {1};
 
+    \node[draw, square, below= of a1, label=below: result] (a2) {1};
+    \node[right= of a2] (b2) {$+$};
+    \node[draw, square, right=of b2, label=below:{$n_2\ (i=2)$}] (c2) {2};
+
+    \node[draw, square, below= of a2, label=below: result] (a3) {3};
+    \node[right= of a3] (b3) {$+$};
+    \node[draw, square, right=of b3, label=below:{$n_3\ (i=3)$}] (c3) {3};
+
+    \node[draw, square, below= of a3, label=below: result] (a4) {6};
+    \node[right= of a4] (b4) {$+$};
+    \node[draw, square, right=of b4, label=below:{$n_4\ (i=4)$}] (c4) {4};
+
+    \node[draw, square, below= of a4, label=below: result] (a5) {10};
+    \node[right= of a5] (b5) {$+$};
+    \node[draw, square, right=of b5, label=below:{$n_5\ (i=5)$}] (c5) {5};
+
+
+    \node[draw, square, below= of a5, label=below: return result] (a6) {15};
 \end{tikzpicture}
 \end{document}
