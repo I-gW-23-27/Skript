@@ -29,3 +29,12 @@ Die folgende Grafik gibt eine Erklärung der einzelnen Elemente dieser
 Darstellung.
 
 ![Erläuterung zur Summenformel](images/erlaeuterung_summenformel.svg)
+
+Gelesen wird die Summenformel "die Summe von k Quadrat von k gleich 1
+bis 100".
+
+Wikipedia stellt für die Summennotation die folgende Animation zur
+Verfügung:
+
+![Animierte Summenformel](https://de.wikipedia.org/wiki/Summe#/media/Datei:Animation_zur_Summenschreibweise_-_k%5E2.gif)
+
