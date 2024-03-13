@@ -27,3 +27,5 @@ $$
 $$
 Die folgende Grafik gibt eine Erklärung der einzelnen Elemente dieser
 Darstellung.
+
+![Erläuterung zur Summenformel](images/erlaeuterung_summenformel.svg)
