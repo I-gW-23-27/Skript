@@ -33,8 +33,6 @@ Darstellung.
 Gelesen wird die Summenformel "die Summe von k Quadrat von k gleich 1
 bis 100".
 
-Wikipedia stellt für die Summennotation die folgende Animation zur
-Verfügung:
+[Wikipedia stellt für die Summennotation eine Animation zur Verfügung](https://de.wikipedia.org/wiki/Summe#/media/Datei:Animation_zur_Summenschreibweise_-_k%5E2.gif).
 
-![Animierte Summenformel](https://de.wikipedia.org/wiki/Summe#/media/Datei:Animation_zur_Summenschreibweise_-_k%5E2.gif)
 
