@@ -62,9 +62,13 @@
     \node[right= of a5] (b5) {$+$};
     \node[draw, square, right=of b5, label=below:{$n_5\ (i=5)$}] (c5) {5};
     \node[left= of a5] (1a5) {$=$};
-    \node[draw, square, left=of 1a5, label=below: result] (0a5) {15};
+    \node[draw, square, left=of 1a5, label=below: return result] (0a5) {15};
 
 
-    \node[draw, square, below= of a5, label=below: return result] (a6) {15};
+    \draw[myarrow] (0a) -- (a1);
+    \draw[myarrow] (0a1) -- (a2);
+    \draw[myarrow] (0a2) -- (a3);
+    \draw[myarrow] (0a3) -- (a4);
+    \draw[myarrow] (0a4) -- (a5);
 \end{tikzpicture}
 \end{document}
