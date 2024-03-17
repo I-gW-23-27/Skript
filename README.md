@@ -95,7 +95,9 @@ entstehen.
 
 ### Algorithmen
 
-[Visualisierung von Sortieralgorithmen](https://www.toptal.com/developers/sorting-algorithms)
+[Visualisierung von
+Sortieralgorithmen](https://www.toptal.com/developers/sorting-algorithms)
+[Visualisierung von Algorithmen und Datenstrukturen](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 ### Jupyter Notebook
 
