@@ -101,7 +101,8 @@ Sortieralgorithmen](https://www.toptal.com/developers/sorting-algorithms)
 Datenstrukturen](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 [Merge Sort](https://opendsa-server.cs.vt.edu/embed/mergesortAV)  
-Die Visualisierung kann mit eigenen Werten gefüttert werden.
+Die Visualisierung kann mit eigenen Werten gefüttert werden. Weitere
+Visualisierungen können mit Suchbegriff und opendsa gefunden werden.
 
 ### Jupyter Notebook
 
