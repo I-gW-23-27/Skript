@@ -97,7 +97,11 @@ entstehen.
 
 [Visualisierung von
 Sortieralgorithmen](https://www.toptal.com/developers/sorting-algorithms)
-[Visualisierung von Algorithmen und Datenstrukturen](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+[Visualisierung von Algorithmen und
+Datenstrukturen](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+[Merge Sort](https://opendsa-server.cs.vt.edu/embed/mergesortAV)  
+Die Visualisierung kann mit eigenen Werten gefüttert werden.
 
 ### Jupyter Notebook
 
