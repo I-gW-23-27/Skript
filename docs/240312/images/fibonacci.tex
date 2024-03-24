@@ -1,0 +1,46 @@
+% example.tex
+\documentclass[dvisvgm]{standalone}
+
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary {angles,
+                 arrows.meta,
+                 calc,
+                 positioning,
+                 shapes.geometric}
+
+ \tikzset{
+        square/.style={regular polygon, regular polygon sides=4},
+        base/.style={draw, align=center, minimum height=4ex},
+        proc/.style={base, rectangle, text width=8em},
+        io/.style={trapezium, trapezium left angle=70, trapezium right
+                   angle=110, draw, text width=8em, %minimum width=2cm, 
+                   %minimum height=1cm
+                   },
+        test/.style={base, diamond, aspect=2,
+                     %text width=5em
+                     },
+        term/.style={proc, rounded corners},
+        myarrow/.style={-Stealth, line width=0.25mm},
+ }
+
+\begin{document}
+\begin{tikzpicture}
+    [level 1/.style={sibling distance=40mm},
+     level 2/.style={sibling distance=30mm},
+     level 3/.style={sibling distance=20mm},
+    ]
+    \node {$f(5)$}
+    child {node {$f(4)$}
+         child{node {$f(3)$}
+             child{node {$f(2)$}}
+             child{node {$f(1)$}}}
+         child{node {$f(2)$}}}
+    child {node {$f(3)$}
+        child{node {$f(2)$}}
+        child{node {$f(1)$}}};
+
+\end{tikzpicture}
+\end{document}
