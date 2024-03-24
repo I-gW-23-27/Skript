@@ -14,8 +14,8 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 07.03.2024 | [Algorithmen: Einführung](240305/algorithmen.md) |
 | 12.03.2024 | [Algorithmen: Selection Sort](240312/src/beurteilung.md) |
 |            | [Algorithmen: divide and conquer](240312/divide_and_conquer.md) |
-| 19.03.2024 | Algorithmen: Merge Sort |
-| 26.03.2024 | Algorithmen: Suchen |
+| 19.03.2024 | Übungen zur Rekursion |
+| 26.03.2024 | Algorithmen: Merge Sort |
 | 02.04.2024 | Algorithmen: Suchen |
 | 09.04.2024 | Test Algorithmen |
 | 07.05.2024 | Einführung Robotik |
