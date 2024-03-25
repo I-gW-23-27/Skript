@@ -24,5 +24,24 @@
 \begin{document}
 \begin{tikzpicture}
 
+    \node[draw, square] (a) {1};
+    \node[draw, square, right=of a] (b) {2};
+    \node[draw, square, right=0cm of b] (c) {3};
+    \node[draw, square, right=0cm of c] (d) {4};
+    \node[draw, square, right=0cm of d] (e) {5};
+
+    \node[draw, square, below=of a] (b2) {2};
+    \node[draw, square, right= of b2] (c2) {3};
+    \node[draw, square, right=0cm of c2] (d2) {4};
+    \node[draw, square, right=0cm of d2] (e2) {5};
+
+    \node[draw, square, below= of b2] (c3) {3};
+    \node[draw, square, right= of c3] (d3) {4};
+    \node[draw, square, right=0cm of d3] (e3) {5};
+
+    \node[draw, square, below= of c3] (d3) {4};
+    \node[draw, square, right= of d3] (e3) {5};
+
+
 \end{tikzpicture}
 \end{document}
