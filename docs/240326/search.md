@@ -57,6 +57,34 @@ oder rechts von diesem Wert weiter gesucht. Dieses vorgehen wird so
 lange fortgesetzt, bis entweder der gesuchte Wert gefunden wird oder
 kein Wert zum vergleichen mehr übrig ist.
 
+### Formale Beschreibung[^1]
+
+**Algorithmus B** (*Binäre Suche*). Gegeben eine Sequenz von
+Daten $D_1, D_2, ..., D_N$ mit Schlüsseln in aufsteigender Reihenfolge
+$K_1 < K_2 < \cdots < K_N$, sucht der Algorithmus nach einem Schlüssel
+$K$. 
+
+**B1.** [Initialisierung.] Setze $lo \leftarrow 0$, $hi \leftarrow N-1$.
+
+**B2.** [Mitte ermitteln.] Falls $lo > hi$ endet der Algorithmus ohne
+Treffer. Andernfalls entspricht die ungefähre Mitte $mid \leftarrow
+\lfloor(lo + hi)/2\rfloor$.
+
+**B3.** [Vergleiche.] Falls $K < K_{mid}$ gehe zu B4; falls $K> K_{mid}$
+gehe zu B5. Falls $K=K{mid}$ endet der Algorithmus erfolgreich.
+
+**B4.** [Passe $hi$ an.] Setze $hi \leftarrow mid - 1$ und gehe zu B2.
+
+**B5.** [Passe $lo$ an.] Setze $lo \leftarrow mid + 1$ und gehe zu B2.
+
+### Flussdiagramm des Algorithmus
+
+
 Daten zu sortieren ist eine Vorarbeit um effizienter suchen zu können.
 Der Aufwand für die Sortierung lohnt sich allerdings nur, wenn mehrfach
 nach einem Datum gesucht werden muss.
+
+[^1]: Die Beschreibung des Algorithmus ist eine Übersetzung aus: Knuth,
+    Donald Ervin, The Art of Computer Programming (Sorting and
+    Searching), 3. Aufl., Band 3, Reading, Mass: Addison-Wesley, 1997,
+    Seite 410.
