@@ -13,11 +13,11 @@ ist. Die lineare Suche ist in Python sehr einfach zu realisieren:
 ```Python
 def linear_search(seq, x):
     """
-    Durchsucht sequenziell ein gegebenes Array und gibt den Index
+    Durchsucht sequenziell eine gegebene Liste und gibt den Index
     des gesuchten Wertes zurück.
 
     Parameter:
-    seq (list): Die Liste oder das Array, in dem gesucht wird.
+    seq (list): Die Liste, in der gesucht wird.
     x: Der Wert, nach dem in der Liste gesucht wird.
 
     Rückgabewert:
@@ -38,7 +38,24 @@ def linear_search(seq, x):
     return -1
 ```
 
+Die lineare Suche ist sehr einfach. Allerdings wächst der Suchaufwand
+proportional zur Länge der zu durchsuchenden Sequenz. Der Algorithmus
+der binären Suche beschreibt eine Suche, bei welcher der Suchaufwand
+weniger schnell ansteigt.
+
 ## Binäre Suche
+
+Grundlage für die binäre Suche ist eine Sequenz sortierter Daten.
+
+Eine sortierte Sequenz kann durchsucht werden, in dem als erstes der
+mittlere Wert der Sequenz mit dem gesuchten Wert verglichen wird. Ist
+der gesuchte Wert kleiner als dieser mittlere Wert, dann ist die Suche
+in der linken Hälfte der Sequenz fortzusetzen, ist der Wert grösser, in
+der rechten Hälfte. In der entsprechenden Hälfte wird wieder der
+mittlere Wert mit dem gesuchten Wert verglichen und dann entweder links
+oder rechts von diesem Wert weiter gesucht. Dieses vorgehen wird so
+lange fortgesetzt, bis entweder der gesuchte Wert gefunden wird oder
+kein Wert zum vergleichen mehr übrig ist.
 
 Daten zu sortieren ist eine Vorarbeit um effizienter suchen zu können.
 Der Aufwand für die Sortierung lohnt sich allerdings nur, wenn mehrfach
