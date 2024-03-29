@@ -125,9 +125,12 @@ def binary_search(seq, x):
     return index
 
 ```
-Daten zu sortieren ist eine Vorarbeit um effizienter suchen zu können.
-Der Aufwand für die Sortierung lohnt sich allerdings nur, wenn mehrfach
-nach einem Datum gesucht werden muss.
+
+### Effizienz der binären Suche
+
+Da die binäre Suche den Suchbereich bei jedem gescheiterten Versuch
+halbiert, braucht es maximal $\lfloor log_2(n) + 1 \rfloor$ Vergleiche,
+um festzustellen, ob der gesuchte Wert in der durchsuchten Sequenz vorkommt.
 
 [^1]: Die Beschreibung des Algorithmus ist eine Übersetzung aus: Knuth,
     Donald Ervin, The Art of Computer Programming (Sorting and
