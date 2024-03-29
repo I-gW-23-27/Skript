@@ -81,7 +81,50 @@ gehe zu B5. Falls $K=K{mid}$ endet der Algorithmus erfolgreich.
 
 ![Flow Chart Binary Search](./images/binary_search_flow_chart.svg)
 
+### Iterative Implementierung in Python
 
+```Python
+def binary_search(seq, x):
+    """
+    Führt eine binäre Suche in einem sortierten Array durch und gibt 
+    den Index des gesuchten Wertes zurück. 
+
+    Parameter:
+    seq (list): Das sortierte Array, in dem die Suche durchgeführt wird.
+    x: Der zu suchende Wert.
+
+    Rückgabewert:
+    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, wenn 
+    der Wert nicht im Array gefunden wird.
+
+    Anmerkungen:
+    - Die Funktion erwartet, dass `seq` bereits sortiert ist.
+    - Die Suche ist effizient, da sie die Liste in jeder Iteration halbiert.
+    - Falls `x` mehrfach in `seq` vorkommt, wird der Index einer 
+      der Instanzen von `x` zurückgegeben.
+
+    Beispiel:
+    >>> binary_search([1, 2, 3, 4, 5], 3)
+    2
+    >>> binary_search([1, 2, 4, 5], 3)
+    -1
+    """
+    index = -1
+    lo = 0
+    hi = len(seq) - 1
+
+    while lo < hi:
+        middle = (lo + hi) // 2
+        if x == seq[middle]:
+            return middle
+        elif x < seq[middle]:
+            hi = (lo + middle) // 2
+        else:
+            lo = (middle + hi) // 2 + 1
+
+    return index
+
+```
 Daten zu sortieren ist eine Vorarbeit um effizienter suchen zu können.
 Der Aufwand für die Sortierung lohnt sich allerdings nur, wenn mehrfach
 nach einem Datum gesucht werden muss.
