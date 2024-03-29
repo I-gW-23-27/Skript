@@ -79,6 +79,8 @@ gehe zu B5. Falls $K=K{mid}$ endet der Algorithmus erfolgreich.
 
 ### Flussdiagramm des Algorithmus
 
+![Flow Chart Binary Search](./images/binary_search_flow_chart.svg)
+
 
 Daten zu sortieren ist eine Vorarbeit um effizienter suchen zu können.
 Der Aufwand für die Sortierung lohnt sich allerdings nur, wenn mehrfach
