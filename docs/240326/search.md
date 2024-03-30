@@ -188,9 +188,11 @@ def binary_search_r(seq, x, lo=0, hi=None):
 
 Da die binäre Suche den Suchbereich bei jedem gescheiterten Versuch
 halbiert, braucht es bei einer Sequenz der Länge $n$ maximal $\lfloor
-log_2(n) + 1 \rfloor$ Vergleiche, 
+log_2(n) + 1 \rfloor$ Vergleiche 
 um festzustellen, ob der gesuchte Wert in der durchsuchten Sequenz
-vorkommt. Welche Verbesserung das für die Performanz der Suche bedeutet,
+vorkommt. Wohl steigt die Zahl der Vergleiche am bis $n=6$ fast linear
+an; anschliessend flacht das Wachstum aber stark ab. Welche Verbesserung
+das für die Performanz der Suche bedeutet, 
 zeigt die folgende Gegenüberstellung.
 
 ![Gegenüberstellung lineares und logarithmisches Wachstum](./images/lin_log.svg)
