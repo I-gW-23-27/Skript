@@ -39,9 +39,10 @@ def linear_search(seq, x):
 ```
 
 Die lineare Suche ist sehr einfach. Allerdings wächst der Suchaufwand
-proportional zur Länge der zu durchsuchenden Sequenz. Der Algorithmus
-der binären Suche beschreibt eine Suche, bei welcher der Suchaufwand
-weniger schnell ansteigt.
+proportional zur Länge der zu durchsuchenden Sequenz. Daher wird als
+nächstes die binäre Suche vorgestellt. Hier steigt der Aufwand mit
+zunehmender Länge der zu durchsuchenden Sequenz deutlich weniger
+schnell. 
 
 ## Binäre Suche
 
@@ -51,13 +52,16 @@ Eine sortierte Sequenz kann durchsucht werden, in dem als erstes der
 mittlere Wert der Sequenz mit dem gesuchten Wert verglichen wird. Ist
 der gesuchte Wert kleiner als dieser mittlere Wert, dann ist die Suche
 in der linken Hälfte der Sequenz fortzusetzen, ist der Wert grösser, in
-der rechten Hälfte. In der entsprechenden Hälfte wird wieder der
+der rechten. In der entsprechenden Hälfte wird wieder der
 mittlere Wert mit dem gesuchten Wert verglichen und dann entweder links
 oder rechts von diesem Wert weiter gesucht. Dieses vorgehen wird so
 lange fortgesetzt, bis entweder der gesuchte Wert gefunden wird oder
 kein Wert zum vergleichen mehr übrig ist.
 
-### Formale Beschreibung[^1]
+### Formale Beschreibung
+
+Formal wurde der Algorithmus der binären Suche von Donald E. Knuth
+folgendermassen beschrieben[^1]:
 
 **Algorithmus B** (*Binäre Suche*). Gegeben eine Sequenz von
 Daten $D_1, D_2, ..., D_N$ mit Schlüsseln in aufsteigender Reihenfolge
