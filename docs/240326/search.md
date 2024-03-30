@@ -153,8 +153,10 @@ def binary_search_r(seq, x, lo=0, hi=None):
 
     Anmerkungen:
     - Die Funktion erwartet, dass `seq` sortiert ist.
-    - Die rekursive Natur der Funktion ermöglicht eine effiziente Suche durch Halbieren des Suchbereichs bei jedem Rekursionsschritt.
-    - Wenn der Wert `x` mehrmals in `seq` vorkommt, kann der Index einer beliebigen Instanz von `x` zurückgegeben werden.
+    - Die rekursive Natur der Funktion ermöglicht eine effiziente Suche 
+      durch Halbieren des Suchbereichs bei jedem Rekursionsschritt.
+    - Wenn der Wert `x` mehrmals in `seq` vorkommt, kann der Index 
+      einer beliebigen Instanz von `x` zurückgegeben werden.
 
     Beispiel:
     >>> binary_search_r([1, 2, 3, 4, 5], 3)
