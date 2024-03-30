@@ -2,8 +2,17 @@
 
 Ein bestimmtes Datum in einer Datensammlung zu suchen, ist eine immer
 wieder vorkommende Aufgabe in der Informatik. Es gibt daher auch eine
-Vielzahl an Suchalgorithmen. Zwei davon sollen hier vorgestellt werden.
-
+Vielzahl an Suchalgorithmen.
+Damit diese Suchalgorithmen funktionieren, werden die Daten mit einem
+Schlüssel versehen und als Schlüssel-Werte-Paar abgespeichert. Der
+Datentyp des Schlüssels wird dabei so gewählt, dass er einfach zu
+sortieren ist. Der abgespeicherte Wert dagegen kann von einem beliebigen
+Datentypen sein.  
+Für die Beschreibung der Suchalgorithmen wird nur auf die Schlüssel
+abgestellt. Um die Darstellung zu vereinfachen, wird auf eine
+Berücksichtigung der abgespeicherten Werte verzichtet.  
+In der Folge werden zwei Suchalgorithmen vorgestellt.
+ 
 ## Lineare Suche
 
 Mit der linearen Suche wird über eine Sequenz von Daten iteriert, bis
@@ -13,16 +22,16 @@ ist. Die lineare Suche ist in Python sehr einfach zu realisieren:
 ```Python
 def linear_search(seq, x):
     """
-    Durchsucht sequenziell eine gegebene Liste und gibt den Index
+    Durchsucht sequenziell eine gegebene Sequenz und gibt den Index
     des gesuchten Wertes zurück.
 
     Parameter:
-    seq (list): Die Liste, in der gesucht wird.
-    x: Der Wert, nach dem in der Liste gesucht wird.
+    seq (list): Die Sequenz, in der gesucht wird.
+    x: Der Wert, nach dem in der Sequenz gesucht wird.
 
     Rückgabewert:
-    int: Der Index des gesuchten Wertes in der Liste. Gibt -1 zurück, 
-    wenn der Wert nicht in der Liste gefunden wird.
+    int: Der Index des gesuchten Wertes in der Sequenz. Gibt -1 
+    zurück, wenn der Wert nicht in der Liste gefunden wird.
 
     Beispiel:
     >>> linear_search([1, 2, 3, 4], 3)
@@ -38,7 +47,9 @@ def linear_search(seq, x):
     return -1
 ```
 
-Die lineare Suche ist sehr einfach. Allerdings wächst der Suchaufwand
+Die lineare Suche ist sehr einfach. Ausserdem funktioniert sie
+unabhängig davon, ob die zu durchsuchende Sequenz geordnet ist.
+Allerdings wächst der Suchaufwand
 proportional zur Länge der zu durchsuchenden Sequenz. Daher wird als
 nächstes die binäre Suche vorgestellt. Hier steigt der Aufwand mit
 zunehmender Länge der zu durchsuchenden Sequenz deutlich weniger
