@@ -101,20 +101,22 @@ gehe zu B5. Falls $K=K_{mid}$ endet der Algorithmus erfolgreich.
 ```Python
 def binary_search(seq, x):
     """
-    Führt eine binäre Suche in einem sortierten Array durch und gibt 
-    den Index des gesuchten Wertes zurück. 
+    Führt eine binäre Suche in einer sortierten Sequenz durch und 
+    gibt den Index des gesuchten Wertes zurück. 
 
     Parameter:
-    seq (list): Das sortierte Array, in dem die Suche durchgeführt wird.
+    seq (list): Die sortierte Sequenz, in dem die Suche durchgeführt 
+    wird.
     x: Der zu suchende Wert.
 
     Rückgabewert:
-    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, wenn 
-    der Wert nicht im Array gefunden wird.
+    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, 
+    wenn der Wert nicht in der Sequenz gefunden wird.
 
     Anmerkungen:
     - Die Funktion erwartet, dass `seq` bereits sortiert ist.
-    - Die Suche ist effizient, da sie die Liste in jeder Iteration halbiert.
+    - Die Suche ist effizient, da sie die Liste in jeder Iteration 
+      halbiert.
     - Falls `x` mehrfach in `seq` vorkommt, wird der Index einer 
       der Instanzen von `x` zurückgegeben.
 
@@ -143,29 +145,35 @@ def binary_search(seq, x):
 
 ### Rekursive Implementation in Python
 
+Für die Implementation der binären Suche drängt sich eine rekursive
+Lösung auf. Die entsprechende Implementation findet sich im folgenden
+Listing.
+
 ```Python
 def binary_search_r(seq, x, lo=0, hi=None):
     """
-    Führt eine rekursive binäre Suche in einem sortierten Array durch 
+    Führt eine rekursive binäre Suche in einer sortierten Sequenz durch 
     und gibt den Index des gesuchten Wertes zurück.
 
     Parameter:
-    seq (list): Das sortierte Array, in dem die Suche durchgeführt wird.
+    seq (list): Die sortierte Sequenz, in der die Suche durchgeführt 
+    wird.
     x: Der zu suchende Wert.
-    lo (int, optional): Der Startindex des Bereichs im Array, in dem 
-    gesucht werden soll. Standardmäßig 0.
-    hi (int, optional): Der Endindex des Bereichs im Array, in dem gesucht 
-    werden soll. Standardmäßig None, wird intern auf die 
+    lo (int, optional): Der Startindex des Bereichs in der Sequenz, in 
+    dem gesucht werden soll. Standardmäßig 0.
+    hi (int, optional): Der Endindex des Bereichs in der Sequenz, in 
+    dem gesucht werden soll. Standardmäßig None, wird intern auf die 
     Länge von `seq` - 1 gesetzt.
 
     Rückgabewert:
-    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, wenn der 
-    Wert nicht im Array gefunden wird.
+    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, 
+    wenn der Wert nicht in der Sequenz gefunden wird.
 
     Anmerkungen:
     - Die Funktion erwartet, dass `seq` sortiert ist.
-    - Die rekursive Natur der Funktion ermöglicht eine effiziente Suche 
-      durch Halbieren des Suchbereichs bei jedem Rekursionsschritt.
+    - Die rekursive Natur der Funktion ermöglicht eine effiziente 
+      Suche durch Halbieren des Suchbereichs bei jedem 
+      Rekursionsschritt.
     - Wenn der Wert `x` mehrmals in `seq` vorkommt, kann der Index 
       einer beliebigen Instanz von `x` zurückgegeben werden.
 
