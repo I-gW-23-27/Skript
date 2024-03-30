@@ -143,25 +143,6 @@ def binary_search(seq, x):
 
 ```
 
-Im folgenden wird Schritt für Schritt gezeigt, was geschieht, wenn der
-Funktion `binary_search()` die Sequenz 2, 4, 6, 8, 10, 12, 14, 16 und
-der gesuchte Wert 7 übergeben wird.
-
-Als erstes wird der Index des Wertes in der Mitte der Sequenz berechnet
-und `middle` zugewiesen.
-$$(0+7)\ mod\ 2 = 3$$
-
-![](./images/bs_1.svg)
-
-Der hervorgehobene Wert wird mit 7 verglichen. Da 7 kleiner als 8 ist,
-wird in der linken Hälfte der Sequenz weitergesucht.
-
-![](./images/bs_2.svg)
-
-In dieser Hälfte wird `middle` die mit $(0+3)\ mod\ 2 = 1$ die neue
-Mitte zugewiesen.
-
-Der Vergleich des Wertes 
 
 ### Rekursive Implementation in Python
 
