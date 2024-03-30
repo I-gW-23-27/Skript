@@ -16,6 +16,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 |            | [Algorithmen: divide and conquer](240312/divide_and_conquer.md) |
 | 19.03.2024 | Übungen zur Rekursion |
 | 26.03.2024 | [Algorithmen: Merge Sort](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240326/merge_sort.ipynb) |
+|            | Algorithmen: [binäre Suche](240326/search.md) |
 | 02.04.2024 | Algorithmen: Suchen |
 | 09.04.2024 | Test Algorithmen |
 | 07.05.2024 | Einführung Robotik |

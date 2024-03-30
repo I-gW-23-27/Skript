@@ -11,3 +11,8 @@
 *.log
 *.dvi
 *.swp
+*.js
+*.html
+*.css
+*.woff
+
