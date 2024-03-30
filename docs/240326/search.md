@@ -75,7 +75,7 @@ Treffer. Andernfalls entspricht die ungefähre Mitte $mid \leftarrow
 \lfloor(lo + hi)/2\rfloor$.
 
 **B3.** [Vergleiche.] Falls $K < K_{mid}$ gehe zu B4; falls $K> K_{mid}$
-gehe zu B5. Falls $K=K{mid}$ endet der Algorithmus erfolgreich.
+gehe zu B5. Falls $K=K_{mid}$ endet der Algorithmus erfolgreich.
 
 **B4.** [Passe $hi$ an.] Setze $hi \leftarrow mid - 1$ und gehe zu B2.
 
