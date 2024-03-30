@@ -135,16 +135,21 @@ def binary_search(seq, x):
 ```Python
 def binary_search_r(seq, x, lo=0, hi=None):
     """
-    Führt eine rekursive binäre Suche in einem sortierten Array durch und gibt den Index des gesuchten Wertes zurück.
+    Führt eine rekursive binäre Suche in einem sortierten Array durch 
+    und gibt den Index des gesuchten Wertes zurück.
 
     Parameter:
     seq (list): Das sortierte Array, in dem die Suche durchgeführt wird.
     x: Der zu suchende Wert.
-    lo (int, optional): Der Startindex des Bereichs im Array, in dem gesucht werden soll. Standardmäßig 0.
-    hi (int, optional): Der Endindex des Bereichs im Array, in dem gesucht werden soll. Standardmäßig None, wird intern auf die Länge von `seq` - 1 gesetzt.
+    lo (int, optional): Der Startindex des Bereichs im Array, in dem 
+    gesucht werden soll. Standardmäßig 0.
+    hi (int, optional): Der Endindex des Bereichs im Array, in dem gesucht 
+    werden soll. Standardmäßig None, wird intern auf die 
+    Länge von `seq` - 1 gesetzt.
 
     Rückgabewert:
-    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, wenn der Wert nicht im Array gefunden wird.
+    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, wenn der 
+    Wert nicht im Array gefunden wird.
 
     Anmerkungen:
     - Die Funktion erwartet, dass `seq` sortiert ist.
