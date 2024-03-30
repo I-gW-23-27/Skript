@@ -134,7 +134,11 @@ def binary_search(seq, x):
 
 Da die binäre Suche den Suchbereich bei jedem gescheiterten Versuch
 halbiert, braucht es maximal $\lfloor log_2(n) + 1 \rfloor$ Vergleiche,
-um festzustellen, ob der gesuchte Wert in der durchsuchten Sequenz vorkommt.
+um festzustellen, ob der gesuchte Wert in der durchsuchten Sequenz
+vorkommt. Welche Verbesserung das für die Performanz der Suche bedeutet,
+zeigt die folgende Gegenüberstellung.
+
+![Gegenüberstellung lineares und logarithmisches Wachstum](./images/lin_log.svg)
 
 [^1]: Die Beschreibung des Algorithmus ist eine Übersetzung aus: Knuth,
     Donald Ervin, The Art of Computer Programming (Sorting and
