@@ -130,6 +130,53 @@ def binary_search(seq, x):
 
 ```
 
+### Rekursive Implementation in Python
+
+```Python
+def binary_search_r(seq, x, lo=0, hi=None):
+    """
+    Führt eine rekursive binäre Suche in einem sortierten Array durch und gibt den Index des gesuchten Wertes zurück.
+
+    Parameter:
+    seq (list): Das sortierte Array, in dem die Suche durchgeführt wird.
+    x: Der zu suchende Wert.
+    lo (int, optional): Der Startindex des Bereichs im Array, in dem gesucht werden soll. Standardmäßig 0.
+    hi (int, optional): Der Endindex des Bereichs im Array, in dem gesucht werden soll. Standardmäßig None, wird intern auf die Länge von `seq` - 1 gesetzt.
+
+    Rückgabewert:
+    int: Der Index des gesuchten Wertes in `seq`. Gibt -1 zurück, wenn der Wert nicht im Array gefunden wird.
+
+    Anmerkungen:
+    - Die Funktion erwartet, dass `seq` sortiert ist.
+    - Die rekursive Natur der Funktion ermöglicht eine effiziente Suche durch Halbieren des Suchbereichs bei jedem Rekursionsschritt.
+    - Wenn der Wert `x` mehrmals in `seq` vorkommt, kann der Index einer beliebigen Instanz von `x` zurückgegeben werden.
+
+    Beispiel:
+    >>> binary_search_r([1, 2, 3, 4, 5], 3)
+    2
+    >>> binary_search_r([1, 2, 4, 5], 3)
+    -1
+    """
+    if hi is None:
+        hi = len(seq) - 1
+    if len(seq) == 1:
+        if seq[0] == x:
+            return 0
+        else:
+            return -1
+    else:
+        mid = (lo + hi) // 2
+        if lo > hi:
+            return -1
+        elif seq[mid] == x:
+            return mid
+        elif x < seq[mid]:
+            return binary_search_r(seq, x, lo, mid - 1)
+        elif x > seq[mid]:
+            return binary_search_r(seq, x, mid + 1, hi)
+
+```
+
 ### Effizienz der binären Suche
 
 Da die binäre Suche den Suchbereich bei jedem gescheiterten Versuch
