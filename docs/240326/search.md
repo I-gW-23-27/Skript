@@ -133,7 +133,8 @@ def binary_search(seq, x):
 ### Effizienz der binären Suche
 
 Da die binäre Suche den Suchbereich bei jedem gescheiterten Versuch
-halbiert, braucht es maximal $\lfloor log_2(n) + 1 \rfloor$ Vergleiche,
+halbiert, braucht es bei einer Sequenz der Länge $n$ maximal $\lfloor
+log_2(n) + 1 \rfloor$ Vergleiche, 
 um festzustellen, ob der gesuchte Wert in der durchsuchten Sequenz
 vorkommt. Welche Verbesserung das für die Performanz der Suche bedeutet,
 zeigt die folgende Gegenüberstellung.
