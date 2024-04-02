@@ -1,0 +1,39 @@
+% example.tex
+\documentclass[dvisvgm]{standalone}
+
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta,
+                 calc,
+                 positioning,
+                 shapes.geometric}
+
+ \tikzset{
+        square/.style={regular polygon, regular polygon sides=4, minimum
+        width=12mm},
+        base/.style={draw, align=center, minimum height=4ex},
+        proc/.style={base, rectangle, text width=8em},
+        io/.style={trapezium, trapezium left angle=70, trapezium right
+                   angle=110, draw, text width=8em, %minimum width=2cm, 
+                   %minimum height=1cm
+                   },
+        test/.style={base, diamond, aspect=2,
+                     text width=8em
+                     },
+        term/.style={proc, rounded corners},
+        myarrow/.style={-Stealth, line width=0.25mm},
+ }
+
+\begin{document}
+\begin{tikzpicture}
+    \node[draw, square, label=below:0] (a0) {2};
+    \node[draw, square, label=below:1, right=0cm of a0] (a1) {4};
+    \node[draw, square, label=below:2, right=0cm of a1] (a2) {6};
+    \node[draw, square, fill=gray, label=below:3, right=0cm of a2] (a3) {8};
+    \node[draw, square, fill=gray, label=below:4, right=0cm of a3] (a4) {10};
+    \node[draw, square, fill=gray, label=below:5, right=0cm of a4] (a5) {12};
+    \node[draw, square, fill=gray, label=below:6, right=0cm of a5] (a6) {14};
+    \node[draw, square, fill=gray, label=below:7, right=0cm of a6] (a7) {16};
+\end{tikzpicture}
+\end{document}
