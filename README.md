@@ -125,3 +125,7 @@ Notebooks](http://blog.juliusschulz.de/blog/ultimate-ipython-notebook)
   
   Ein Plug-In für den Firefox Browser, welches graphisch darstellt, wie
   Coockies den Browserverlauf aufzeichnen.
+
+### Visuals
+
+[xkcd](https://xkcd.com/)
