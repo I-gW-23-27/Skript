@@ -22,3 +22,16 @@ Kindknoten hat.
 
 ## Binärer Suchbaum
 
+Ein binärer Suchbaum ist ein Binärbaum, bei dem der linke Kindknoten
+einen Wert kleiner oder gleich dem Wert des Wurzelknotens und der rechte
+Kindknoten einen Wert grösser oder gleich dem Wert des Wurzelknotens
+hat.
+
+![Binärer Suchbaum](bst_ex.svg)
+
+Binäre Suchbäume haben zwei wichtige Eigenschaften:
+
+1. Binäre Suchbäume stellen eine schnelle Suche zur Verfügung.
+2. Der Aufwand neue Elemente einzufügen bzw. bestehende Elemente zu
+   entfernen ist klein.
+
