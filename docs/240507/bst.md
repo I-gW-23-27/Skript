@@ -10,3 +10,15 @@ Knoten ist die Wurzel (engl. root). Alle anderen Knoten haben einen
 Knoten als Elternknoten. Ein Elternknoten kann ein oder mehrere
 Kindknoten haben. Ein Knoten ohne Kinder wird als Blatt bezeichnet.
 Üblicherweise werden Bäume vom Wurzelknoten aus nach unten dargestellt.
+
+![Beispielbaum](./bsp_tree.svg)
+
+## Binärbäume
+
+Ein Binärbaum ist ein Baum, bei dem ein Elternknoten maximal zwei
+Kindknoten hat.
+
+![Binärbaum](./binary_tree.svg)
+
+## Binärer Suchbaum
+
