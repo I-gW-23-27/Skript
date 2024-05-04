@@ -2,7 +2,12 @@
 
 ## Bäume in der Informatik
 
-![Quelle: xkcd.com/835, besucht am 4. Mai 24](./tree.png)
+<figure>
+  <img src="./tree.png" alt="Christmas Tree">
+  <figcaption>Quelle: xkcd.com/835, besucht am 4. Mai 24</figcaption>
+</figure>
+
+
 
 Ein Baum in der Informatik ist eine Datenstruktur die aus Knoten (engl.
 Vertex bzw. vertices, V) und Kanten (engl. edge, E) besteht. Der erste
