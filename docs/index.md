@@ -19,10 +19,10 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 |            | Algorithmen: [binäre Suche](240326/search.md) |
 | 02.04.2024 | Algorithmen: Suchen |
 | 09.04.2024 | Test Algorithmen |
-| 07.05.2024 | Einführung Robotik |
+| 07.05.2024 | [Binärer Suchbaum](240507/bst.md) |
 | 14.05.2024 | Einführung Robotik |
 | 21.05.2024 | Einführung Robotik |
-| 28.05.2024 | Graphen |
+| 28.05.2024 | Einführung Robotik |
 | 04.06.2024 | Graphen |
 | 18.06.2024 | Graphen |
 | 25.06.2024 | Test Robotik und Graphen |
