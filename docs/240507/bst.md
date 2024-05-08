@@ -37,6 +37,11 @@ hat.
 Binäre Suchbäume haben zwei wichtige Eigenschaften:
 
 1. Binäre Suchbäume stellen eine schnelle Suche zur Verfügung.
+   
+   Im Mittel braucht eine Suche in einem binären Suchbaum $log_2(n)$
+   Vergleiche, um nach einem Element zu suchen. Im schlechtesten Fall
+   sind es allerdings $n$ Vergleiche.
+   
 2. Der Aufwand neue Elemente einzufügen bzw. bestehende Elemente zu
    entfernen ist klein.
 
