@@ -83,6 +83,14 @@ lualatex --output-format=dvi inputdatei.tex
 dvisvgm --no-fonts inputdatei.dvi
 ```
 
+### Struktogramme in LaTEX
+
+Um Struktogramme (Nassi-Shneiderman Diagramme) in LaTEX zeichnen zu
+können, kann das Paket
+[struktex](https://ctan.org/pkg/struktex)
+verwendet werden. Mit diesem Paket kann analog zur Vorgehensweise mit
+Hilfe von tikz eine SVG-Datei erzeugt werden.
+
 ## Nützliche Links für den Informatikunterricht
 
 
