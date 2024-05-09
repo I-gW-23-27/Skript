@@ -49,6 +49,14 @@ findet sich eine Anleitung. Es wird insbesondere auch beschrieben, wie
 Code-Zellen zum erstellen von Grafiken in einer Präsentation
 ausgeblendet werden.
 
+### Erstellen von Präsentationen mit Marp
+
+Eine Alternative zur Erstellung von Präsentationen bildet
+[Marp](https://marp.app/). 
+
+Mit Hilfe von Marp können HTML oder PDF Präsentationen aus einem
+Markdown Dokument erzeugt werden.
+
 ### Unicode Zeichen in Dia Diagrammen
 
 Um mathematische Formeln in Dia zu schreiben, müssen die Zeichen mit
