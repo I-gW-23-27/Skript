@@ -63,3 +63,19 @@ Zeichnen Sie aus der untenstehenden Zahlenfolge einen binären Suchbaum.
 ## Musterlösung 3b
 
 ![Musterlösung 3a](./bst-45b.svg)
+
+---
+
+## Binary Search Tree in Python
+
+### Knoten
+
+![Knoten](./node.svg)
+
+---
+
+## Binary Search Tree in Python
+
+### Binary Search Tree
+
+![UML Diagramm](./bst_uml.svg)

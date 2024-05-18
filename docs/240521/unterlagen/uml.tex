@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage[utf8x]{inputenc}
+\usepackage[german]{babel}
+\usepackage{tikz}
+\usepackage{tikz-uml}
+
+\begin{document}
+\begin{tikzpicture}
+\umlclass{Node}{
+    + key
+    + value
+    - parent
+    - left
+    - right
+    }{}
+
+\end{tikzpicture}
+\end{document}
