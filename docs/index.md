@@ -21,7 +21,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 09.04.2024 | Test Algorithmen |
 | 07.05.2024 | [Binärer Suchbaum (Einführung)](240507/bst.md) |
 | 14.05.2024 | Binärer Suchbaum: Entfernen von Elementen |
-| 21.05.2024 | Binärer Suchbaum: Umsetzung in Python |
+| 21.05.2024 | Binärer Suchbaum: [Umsetzung in Python](240521/unterlagen/praesentation.html) |
 | 28.05.2024 | Einführung Robotik |
 | 04.06.2024 | Einführung Robotik |
 | 18.06.2024 | Einführung Robotik |
