@@ -79,3 +79,11 @@ Zeichnen Sie aus der untenstehenden Zahlenfolge einen binären Suchbaum.
 ### Binary Search Tree
 
 ![UML Diagramm](./bst_uml.svg)
+
+---
+
+## Binary Search Tree in Python
+
+### Implementation (soweit entwickelt)
+
+[Musterlösung (stand am 21. Mai 24)](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240521/unterlagen/240521_1gW_bst.ipynb)
