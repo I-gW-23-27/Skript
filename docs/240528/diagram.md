@@ -1,6 +1,6 @@
 <div class="mermaid">
 classDiagram
-direction LR
+
     
 
     class Node {
