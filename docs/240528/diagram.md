@@ -1,4 +1,4 @@
-```mermaid
+<div class="mermaid">
 classDiagram
 direction LR
     
@@ -20,4 +20,4 @@ direction LR
     }
 
     BST "1" o-- "*" Node
- ```   
+</div>  
