@@ -1,0 +1,77 @@
+% example.tex
+\documentclass[dvisvgm]{standalone}
+
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta,
+                 calc,
+                 positioning,
+                 shapes.geometric}
+
+ \tikzset{
+        base/.style={draw, align=center, minimum height=4ex},
+        proc/.style={base, rectangle, text width=12em},
+        io/.style={base, trapezium, trapezium left angle=70, trapezium right
+                   angle=110, draw, text width=8em, %minimum width=2cm, 
+                   %minimum height=1cm
+                   },
+        test/.style={base, diamond, aspect=2,
+                     text width=8em
+                     },
+        term/.style={proc, rounded corners},
+        myarrow/.style={-Stealth, line width=0.25mm},
+ }
+
+\begin{document}
+\begin{tikzpicture}
+	\node[term] (a) {Start};
+	\node[io, below = of a] (input) {key, value, ref\_node};
+	\node[proc, below = of input] (node) {node $\leftarrow$ key, value};
+	\node[test, below = of node] (case0) {ref\_node is None};
+	\node[proc, below = of case0] (refnode) {ref\_node $\leftarrow$ root};
+	\node[test, below = of refnode] (case1) {root is None};
+	\node[proc, below = of case1] (a1) {root $\leftarrow$ node};
+	\node[test, below right = of case1, xshift=3cm] (case2) {key $<$ ref\_node.key $\land$ ref\_node.left};
+	\node[proc, right = of case2] (a2) {ref\_node $\leftarrow$ ref\_node.left};
+	\node[test, below= of case2] (case3) {key $<$ ref\_node.key};
+	\node[proc, below = of case3] (a3) {ref\_node.left $\leftarrow$ node \\ node.parent $\leftarrow$ ref\_node};
+	\node[test, below right = of case3, xshift=3cm] (case4) {key $>$ ref\_node.key $\land$ ref\_node.right};
+	\node[proc, right = of case4] (a4) {ref\_node $\leftarrow$ ref\_node.right};
+	\node[test, below= of case4] (case5) {key $>$ ref\_node.key};
+	\node[proc, below = of case5] (a5) {ref\_node.right $\leftarrow$ node \\ node.parent $\leftarrow$ ref\_node};
+	\node[term, below = of a5] (o) {End};
+
+	\draw[myarrow] (a) -- (input);
+	\draw[myarrow] (input) -- (node);
+	\draw[myarrow] (node) -- (case0);
+	\draw[myarrow] (case0) -- node[fill=white] {ja} (refnode);
+	\draw[myarrow] (refnode) -- (case1);
+	\draw[myarrow] (case1) -- node[fill=white] {ja} (a1);
+	\draw[myarrow] (case2) -- node[fill=white] {nein} (case3);
+	\draw[myarrow] (case2) -- node[fill=white] {ja} (a2);
+	\draw[myarrow] (case3) -- node[fill=white] {ja} (a3);
+	\draw[myarrow] (case4) -- node[fill=white] {nein} (case5);
+	\draw[myarrow] (case4) -- node[fill=white] {ja} (a4);
+	\draw[myarrow] (case5) -- node[fill=white] {nein} (a5);
+	\draw[myarrow] (a5) -- (o);
+
+	\draw[myarrow] (case1) -| node[near start, fill=white] {nein} (case2);
+	\draw[myarrow] (case3) -| node[near start, fill=white] {nein} (case4);
+	\draw[myarrow] (a1) |- (o);
+	\draw[myarrow] (a3) |- (o);
+	\draw[myarrow] (a2) |- (input);
+	\draw[myarrow] (a4) |- (input);
+
+    
+
+    
+%    \draw[myarrow] (e.west) -| ++(-.5,0) |- (d.north west);
+%    \draw[myarrow] (f.east) -| ++(.5,0) |- (d.north east);
+%    \draw[myarrow] (e) -| (g.north);
+%    \draw[myarrow] (f) -| (g.north);
+%    \draw[myarrow] (g) -| (h);
+%    \draw[myarrow] (g) -| (i);
+
+\end{tikzpicture}
+\end{document}
