@@ -22,8 +22,8 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 07.05.2024 | [Binärer Suchbaum (Einführung)](240507/bst.md) |
 | 14.05.2024 | Binärer Suchbaum: Entfernen von Elementen |
 | 21.05.2024 | Binärer Suchbaum: [Umsetzung in Python](240521/unterlagen/praesentation.html) (`insert()`)|
-| 28.05.2024 | Binärer Suchbaum: Umsetzung in Python (`delete()`)|
-| 04.06.2024 | Einführung Robotik |
+| 28.05.2024 | Binärer Suchbaum: Umsetzung in Python |
+| 04.06.2024 | Binärer Suchbaum: Umsetzung in Python |
 | 18.06.2024 | Einführung Robotik |
 | 25.06.2024 | Test Robotik und Graphen |
 | 02.07.2024 | Computernetzwerke |
