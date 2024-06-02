@@ -1,0 +1,77 @@
+\documentclass[dvisvgm]{standalone}
+
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta,
+                 calc,
+                 positioning,
+                 shapes.geometric}
+
+ \tikzset{
+        base/.style={draw, align=center, minimum height=4ex},
+        proc/.style={base, rectangle, text width=12em},
+        io/.style={base, trapezium, trapezium left angle=70, trapezium right
+                   angle=110, draw, text width=8em, %minimum width=2cm, 
+                   %minimum height=1cm
+                   },
+        test/.style={base, diamond, aspect=2,
+                     text width=8em
+                     },
+        term/.style={proc, rounded corners},
+        myarrow/.style={-Stealth, line width=0.25mm},
+ }
+
+\begin{document}
+\begin{tikzpicture}
+	\node[term] (start) {Start};
+	\node[io, below = of start] (input) {key, ref};
+	\node[test, below = of input] (worstcase) {root is None};
+	\node[test, below = of worstcase] (firstcase) {ref is None};
+	\node[proc, below = of firstcase] (a0) {ref $\leftarrow$ root};
+	\node[test, below = of a0] (bestcase) {key = ref.key};
+	\node[test, below = of bestcase] (case1) {key $<$ ref.key $\land$ ref.left};
+	\node[test, below = of case1] (case2) {key $<$ ref.key};
+	\node[test, below = of case2] (case3) {key $>$ ref.key $\land$ ref.right};
+	\node[test, below = of case3] (case4) {key $>$ ref.key};
+	\node[term, below = of case4] (end) {End};
+
+	\node[io, left = of worstcase] (out1) {None};
+	\node[io, left = of bestcase] (out2) {ref};
+	\node[io, left = of case2] (out3) {None};
+	\node[io, left = of case4] (out4) {None};
+
+	\node[proc, right = of case1] (a1) {ref $\leftarrow$ ref.left};
+	\node[proc, right = of case3, xshift=4cm] (a2) {ref $\leftarrow$ ref.right};
+
+	\draw[myarrow] (start) -- (input);
+	\draw[myarrow] (input) -- (worstcase);
+	\draw[myarrow] (worstcase) -- node[fill=white] {nein} (firstcase);
+	\draw[myarrow] (firstcase) -- node[fill=white] {ja} (a0);
+	\draw[myarrow] (a0) -- (bestcase);
+	\draw[myarrow] (bestcase) -- node[fill=white] {nein} (case1);
+	\draw[myarrow] (case1) -- node[fill=white] {nein} (case2);
+	\draw[myarrow] (case2) -- node[fill=white] {nein} (case3);
+	\draw[myarrow] (case3) -- node[fill=white] {nein} (case4);
+
+	\draw[myarrow] (worstcase) -- node[fill=white] {ja} (out1);
+	\draw[myarrow] (bestcase) -- node[fill=white] {ja} (out2);
+	\draw[myarrow] (case2) -- node[fill=white] {ja} (out3);
+	\draw[myarrow] (case4) -- node[fill=white] {ja} (out4);
+
+	\draw[myarrow] (case1) -- node[fill=white] {ja} (a1);
+	\draw[myarrow] (case3) -- node[fill=white] {ja} (a2);
+
+	\draw[myarrow] (a1) |- (input);
+	\draw[myarrow] (a2) |- (input);
+
+	\node[left = of end, xshift=-5cm] (h1) {};
+
+	\draw (out1.west) -|  (h1.center);
+	\draw (out2.west) -|  (h1.center);
+	\draw (out3.west) -|  (h1.center);
+	\draw (out4.west) -|  (h1.center);
+	\draw[myarrow] (h1.center) -- (end);
+
+\end{tikzpicture}
+\end{document}

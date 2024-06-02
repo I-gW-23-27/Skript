@@ -1,0 +1,50 @@
+@startuml
+title UML-Klassendiagramm "Kontokorrentkonto" 
+skinparam Nodesep 100
+hide circle 
+hide <<notImplemented>> stereotype
+<style>
+.notImplemented {
+    BackgroundColor GhostWhite
+}
+</style> 
+class Konto {
+    + eintraege 
+    + saldo 
+    + eintrag_erstellen()
+    + saldo_berechnen()
+}
+class Eintrag {
+    + betrag 
+    + datum 
+}
+class Datum {
+    + tag 
+    + monat 
+    + jahr 
+    - schaltjahr 
+    + anzahl_tage_bis_datum() 
+    - tage_in_deutscher_usanz_berechnen()
+    - pruefen_ob_schaltjahr()
+}
+class Bilanzkonto {
+    + anfangsbestand
+}
+class Erfolgskonto <<notImplemented>> {}
+class Kontokorrentkonto {
+    + sollzins 
+    + habenzins 
+    + laufender_saldo 
+    + aufgelaufene_zinsen 
+    + zins_berechnen()
+}
+
+Konto -[hidden]> Eintrag
+Eintrag -[hidden]> Datum
+
+Konto <|-- Bilanzkonto
+Konto <|-- Erfolgskonto 
+Bilanzkonto <|-- Kontokorrentkonto 
+Konto "1" *-- "*" Eintrag 
+Eintrag "1" o-- "1" Datum 
+@enduml
