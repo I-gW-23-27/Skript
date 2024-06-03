@@ -16,11 +16,12 @@ class BST {
     + root
     + search() 
     + insert() 
+    + delete() 
 }
 
 
 Node -[hidden]> BST
  
-BST "1" *-- "*" Node 
+BST "1" --* "*" Node 
 
 @enduml

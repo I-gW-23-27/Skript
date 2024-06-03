@@ -11,7 +11,7 @@ können binäre Suchbäume aus den zwei Klassen Knoten und Baum modelliert
 werden. Die auf dieser Idee basierende Modellierung wird in
 untenstehendem Diagramm dargestellt.
 
-![Klassendiagramm BST](./images/uml_klassendiagramm.svg)
+![Klassendiagramm BST](./images/bst_klassendiagramm.svg)
 
 ## Implementation der Klasse `Node`
 
