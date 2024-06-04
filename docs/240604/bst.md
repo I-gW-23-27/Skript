@@ -226,3 +226,5 @@ def delete(self, key):
             current = current.left
         return current
 ```
+
+[Anwendungsbeispiel](240604_bst_andwendungsbeipsiel.ipynb)
