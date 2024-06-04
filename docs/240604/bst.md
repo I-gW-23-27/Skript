@@ -227,4 +227,4 @@ def delete(self, key):
         return current
 ```
 
-[Anwendungsbeispiel](240604_bst_andwendungsbeipsiel.ipynb)
+[Anwendungsbeispiel auf Google Colab (korrigiert)](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240604/240604_bst_anwendung.ipynb)
