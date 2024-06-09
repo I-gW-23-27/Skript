@@ -68,7 +68,7 @@ In der Breitensuche werden die Knoten des Baumes Ebene für Ebene
 besucht.
 
 <figure>
-    <img src="./images/Sorted_binary_tree_breadth-first_traversal.svg", alt="Breitensuche">
+    <img src="./images/Breadth-First-Search-Algorithm.gif", alt="Breitensuche">
     
 </figure>
 
