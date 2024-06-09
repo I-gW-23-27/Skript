@@ -69,7 +69,9 @@ besucht.
 
 <figure>
     <img src="./images/Sorted_binary_tree_breadth-first_traversal.svg", alt="Breitensuche">
-    <figcatpion>Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Breadth-first_search_2</figcaption>
+    <figcatpion>
+        Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Breadth-first_search_2
+    </figcaption>
 </figure>
 
 ## Anwendungen
