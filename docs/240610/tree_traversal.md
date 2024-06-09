@@ -51,20 +51,13 @@ Die untenstehende Grafik bildet die drei Varianten ab:
 <figure>
     <img src="./images/Sorted_binary_tree_ALL_RGB.svg" alt="Visualisierung Tiefensuche">
     <figcaption>
-    Tiefensuche in einem Binärbaum (gestrichelter Pfad):
-    
-    Pre-order (der Knoten wird beim roten Punkt besucht):  
-
-                F, B, A, D, C, E, G, I, H;  
-
-                In-order (der Knoten wird beim grünen Punkt besucht):  
-
-                A, B, C, D, E, F, G, H, I;  
-
-                Post-order (der Knoten wird beim blauen Punkt besucht):
-
-                A, C, E, D, B, H, I, G, F.
-
-                Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Depth-first_search
+        <p>Tiefensuche in einem Binärbaum (gestrichelter Pfad):</p> 
+        <p>Pre-order (der Knoten wird beim roten Punkt besucht):<br>   
+           F, B, A, D, C, E, G, I, H;</p>   
+        <p>In-order (der Knoten wird beim grünen Punkt besucht):<br>   
+           A, B, C, D, E, F, G, H, I;</p>   
+        <p>Post-order (der Knoten wird beim blauen Punkt besucht):<br> 
+           A, C, E, D, B, H, I, G, F.</p> 
+        <p>Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Depth-first_search</p> 
     </figcaption>
 </figure>
