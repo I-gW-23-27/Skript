@@ -71,3 +71,37 @@ besucht.
     <img src="./images/Sorted_binary_tree_breadth-first_traversal.svg", alt="Breitensuche">
     <figcatpion>Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Breadth-first_search_2</figcaption>
 </figure>
+
+## Anwendungen
+
+Den folgenden Ausführungen liegt der untenstehende Ausdrucksbaum zu
+Grunde:
+
+<figure>
+    <img src="./images/AST_binary_tree_arith_variables.svg" alt="Abstrakter Strukturbaum">
+    <figcaption>
+    <p>Ein abstrakter Strukturbaum, der den arithmetischen Ausdruck A * (B - C) + (D + E) darstellt.</p>
+    <p>Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Applications</p>
+    </figcaption>
+</figure>
+
+Pre-order Traversierung kann verwendet werden, um einen Präfix-Ausdruck
+(polnische Notation) aus Ausdrucksbäumen zu bilden: Traversieren Sie den
+Ausdrucksbaum in pre-order Reihenfolge. Wenn man zum Beispiel den dargestellten
+arithmetischen Ausdruck in vorgeordneter Reihenfolge durchläuft, erhält
+man $+ * A - B C + D E$. In der Präfix-Notation sind keine Klammern
+erforderlich, solange jeder Operator eine feste Anzahl von Operanden
+hat.
+
+Die Traversierung des Ausdrucksbaums in Post-order Reihenfolge ergibt
+eine  Postfix-Darstellung (umgekehrte polnische Notation). Für den
+gegebenen arithmetischen Ausdruck ergibt sich die Notation $A B C - * D
+E + +$. Diese Form kann leicht in Maschinencode
+umgewandelt werden.
+
+Die Traversierung in in-order Reihenfolge wird sehr häufig bei binären
+Suchbäumen verwendet. Die in-order Traversierung eines binären
+Suchbaumes ergibt eine aufsteigende Sortierung der im binären Suchbaum
+abgelegten Schlüssel.[^1]
+
+[^1]: https://en.wikipedia.org/wiki/Tree_traversal, besucht am 9. Juni 24
