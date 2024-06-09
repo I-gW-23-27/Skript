@@ -10,7 +10,9 @@ Grundsätzlich wird unterschieden zwischen Tiefen- und Breitensuche.
 
 ## Tiefensuche
 
-![Animation Tiefensuche](./images/Depth-First-Search.gif)
+In der Tiefensuche wird im Baum soweit nach unten gegangen, bis der
+unterste Knoten eines Astes erreicht wird. Erst danach werden die Knoten
+rechts besuch. Die unstenstehende Animation soll dies veranschaulichen.
 
 <figure>
     <img src="./images/Depth-First-Search.gif" alt="Tiefensuche">
