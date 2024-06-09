@@ -61,3 +61,13 @@ Die untenstehende Grafik bildet die drei Varianten ab:
         <p>Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Depth-first_search</p> 
     </figcaption>
 </figure>
+
+## Breitensuche
+
+In der Breitensuche werden die Knoten des Baumes Ebene für Ebene
+besucht.
+
+<figure>
+    <img src="./images/Sorted_binary_tree_breadth-first_traversal.svg", alt="Breitensuche">
+    <figcatpion>Quelle: https://en.wikipedia.org/wiki/Tree_traversal#Breadth-first_search_2</figcaption>
+</figure>
