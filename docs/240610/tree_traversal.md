@@ -69,6 +69,9 @@ besucht.
 
 <figure>
     <img src="./images/Breadth-First-Search-Algorithm.gif" alt="Breitensuche">
+    <figcaption>
+        Quelle: https://de.wikipedia.org/wiki/Breitensuche
+    </figcaption>
     
 </figure>
 
