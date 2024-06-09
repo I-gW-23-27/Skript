@@ -9,3 +9,5 @@ Um alle Knoten zu besuchen gibt es verschiedene Vorgehensweisen.
 Grundsätzlich wird unterschieden zwischen Tiefen- und Breitensuche.
 
 ## Tiefensuche
+
+![Animation Tiefensuche](https://en.wikipedia.org/wiki/File:Depth-First-Search.gif)
