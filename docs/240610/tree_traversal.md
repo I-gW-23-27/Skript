@@ -10,4 +10,4 @@ Grundsätzlich wird unterschieden zwischen Tiefen- und Breitensuche.
 
 ## Tiefensuche
 
-![Animation Tiefensuche](https://en.wikipedia.org/wiki/File:Depth-First-Search.gif)
+![Animation Tiefensuche](./images/Depth-First-Search.gif)
