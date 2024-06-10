@@ -1,5 +1,7 @@
 # Tree Traversal
 
+![Titelbild](./images/tt_maske.svg)
+
 Beim Tree Traversal geht es darum jeden Knoten in einem Baum zu
 Besuchen. Mit Besuchen ist gemeint, dass mit dem Knoten etwas geschieht
 \- zum Beispiel die Ausgabe der Knoten oder das Update der in
