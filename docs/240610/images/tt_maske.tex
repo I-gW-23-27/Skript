@@ -1,0 +1,32 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{forest}
+\begin{document}
+\begin{forest}
+  for tree={
+    circle,
+    draw,
+    minimum size=1cm,
+    inner sep=1pt,
+    s sep=2mm
+  }
+  [v
+    [e
+       [r
+         [t]
+         [e]
+       ]
+       [r
+         [t]
+         [a]
+       ]
+    ]
+    [a
+      [r
+        [e]
+        [s]
+      ]
+      [l]
+    ]
+  ]
+\end{forest}
+\end{document}
