@@ -1,0 +1,38 @@
+\documentclass[tikz]{standalone}
+\usepackage[edges]{forest}
+
+\begin{document}
+
+\begin{forest}
+  for tree={
+    circle,
+    draw,
+    minimum size=1cm,
+    inner sep=1pt,
+    s sep=2mm,
+    }
+  [50
+    [40
+        [30
+            [20]
+            [35]
+        ]
+        [45
+            [42]
+            [47]
+        ]
+    ]
+    [60
+        [55
+            [52]
+            [57]
+        ]
+        [70
+            [65]
+            [75]
+        ]
+    ]
+  ]
+\end{forest}
+
+\end{document}

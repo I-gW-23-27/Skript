@@ -1,0 +1,26 @@
+\documentclass[tikz]{standalone}
+\usepackage[edges]{forest}
+
+\begin{document}
+
+\begin{forest}
+  for tree={
+    circle,
+    draw,
+    minimum size=1cm,
+    inner sep=1pt,
+    s sep=2mm,
+    }
+  [Q
+    [A
+        [J]
+        [C]
+    ]
+    [E
+        [U]
+        [S]
+    ]
+  ]
+\end{forest}
+
+\end{document}
