@@ -25,7 +25,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 28.05.2024 | Binärer Suchbaum: Umsetzung in Python |
 | 04.06.2024 | Binärer Suchbaum: [Umsetzung in Python](240604/bst.md) |
 | 10.06.2024 | [Tree Traversal](240610/tree_traversal.md) | 
-| 18.06.2024 | Einführung Robotik |
+| 18.06.2024 | Prüfungsvorbereitung |
 | 25.06.2024 | Test Robotik und Graphen |
 | 02.07.2024 | Computernetzwerke |
 | 09.07.2024 | Computernetzwerke |
