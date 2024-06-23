@@ -26,7 +26,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 04.06.2024 | Binärer Suchbaum: [Umsetzung in Python](240604/bst.md) |
 | 10.06.2024 | [Tree Traversal](240610/tree_traversal.md) | 
 | 18.06.2024 | [Prüfungsvorbereitung](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240618/repetitionen.ipynb) |
-| 25.06.2024 | Test Robotik und Graphen |
+| 25.06.2024 | Test binäre Suchbäume |
 | 02.07.2024 | Computernetzwerke |
 | 09.07.2024 | Computernetzwerke |
 
