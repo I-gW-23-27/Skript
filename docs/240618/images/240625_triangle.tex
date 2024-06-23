@@ -1,4 +1,4 @@
-\documentclass[border=10pt]{standalone}
+\documentclass[border=5mm]{standalone}
 \usepackage{tkz-euclide}
 
 \usepackage{tikz}
@@ -31,7 +31,7 @@
 
     % Zeichne Inkreisradius
     \def\angle{225};
-    \draw[->] (mpik) -- node[left] {$r_i$} +({\angle}:\ri);
+    \draw[->, dashed] (mpik) -- node[left] {$r_i$} +({\angle}:\ri);
     
     % Berechne Umkreisradius
     \pgfmathsetmacro{\ru}{5/(3^(1/2))};
@@ -40,7 +40,7 @@
     \draw (mpik) circle [radius=\ru];
 
     % Zeichne Umkreisradius
-    \draw[->] (mpik) -- node[left, near end] {$r_u$} (90:\ru);
+    \draw[->, dashed] (mpik) -- node[above, very near end] {$r_u$} +(10:\ru);
 
     % Berechne Seitenlängen
     \pgfmathsetmacro{\a}{8^(1/2)}
