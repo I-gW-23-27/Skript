@@ -55,4 +55,13 @@ zur Verfügung gestellt.
 
 ## Tools
 
+Damit die Datensätze in gewünschter Form aufbereitet werden können,
+braucht es die richtigen Werkzeuge. Real Python hat für die Einführung
+in verschiedene Libraries diesen
+[Learning
+Path](https://realpython.com/learning-paths/data-visualization-python/)
+zusammengestellt.  
+Ausserdem findet sich für praktisch alle Diagrammtypen mit einer
+Internetrecherche eine geeignete Anleitung.
+
 [Sankey Diagram](https://plotly.com/python/sankey-diagram/)
