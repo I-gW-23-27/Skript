@@ -14,10 +14,17 @@ im Folgenden behandelt werden.
 
 ## Form
 
+Alle kennen Kuchendiagramme. Dies obwohl Kuchendiagramme oft ungeignet
+sind, die gewünschten Informationen zu veranschaulichen. Welche
+Diagramme für welche Art Daten geeignet sind wird im 
 [Data Viz Project](https://datavizproject.com/)
-
+dargestellt.  
+Auch die Financial Times stellt ein hilfreiches 
 [Visual
 Vocabulary](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary-de.pdf)
+für die Wahl geeigneter Darstellungsformen zu Verfügung.
+
+
 
 ## Inhalt
 
