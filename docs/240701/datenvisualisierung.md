@@ -28,13 +28,30 @@ für die Wahl geeigneter Darstellungsformen zu Verfügung.
 
 ## Inhalt
 
-[Schweizer Open Government Data](https://opendata.swiss/de)
-
+In der Schweiz gilt auf Ebene des Bundes seit 2006 das Bundesgesetz über
+das Öffentlichkeitsprinzip der Verwaltung
+([Öffentlichkeitsgesetz,
+BGÖ](https://www.fedlex.admin.ch/eli/cc/2006/355/de)). Damit steht für
+die unterschiedlichsten Interessen ein grosser Datenbestand zur
+Verfügung. An einem Wirtschaftsgymnasium sind insbesondere die durch das
 [Bundesamt für Statistik](https://www.bfs.admin.ch/bfs/de/home.html)
+zur Verfügung gestellten Daten von grossem Interesse.
 
+Für den Kanton Zürich werden die Daten durch das
+[statistische
+Amt](https://www.zh.ch/de/politik-staat/statistik-daten.html)
+zur Verfügung gestellt. Daten werden auch durch die Stadt Zürich im 
 [Open Data Portal der Stadt Zürich](https://data.stadt-zuerich.ch/)
+Verfügbar gemacht.
 
+Weitere interessante Datensätze werden unter anderem durch die
+[Schweizerische Nationalbank](https://data.snb.ch/de), das 
 [Open Data Portal der SBB](https://data.sbb.ch/explore/?sort=modified)
+ oder durch
+[swisstopo](https://www.swisstopo.admin.ch/de/geodaten-und-applikationen)
+zur Verfügung gestellt.
+
+
 
 ## Tools
 
