@@ -65,3 +65,5 @@ Ausserdem findet sich für praktisch alle Diagrammtypen mit einer
 Internetrecherche eine geeignete Anleitung.  
 Eine gute Zusammenstellung bietet die
 [Python Graph Gallery](https://python-graph-gallery.com/).
+
+[Hier gehts zum Arbeitsblatt](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240701/arbeitsblatt_datenvisualisierung.ipynb).
