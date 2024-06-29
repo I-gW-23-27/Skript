@@ -62,6 +62,6 @@ in verschiedene Libraries diesen
 Path](https://realpython.com/learning-paths/data-visualization-python/)
 zusammengestellt.  
 Ausserdem findet sich für praktisch alle Diagrammtypen mit einer
-Internetrecherche eine geeignete Anleitung.
-
-[Sankey Diagram](https://plotly.com/python/sankey-diagram/)
+Internetrecherche eine geeignete Anleitung.  
+Eine gute Zusammenstellung bietet die
+[Python Graph Gallery](https://python-graph-gallery.com/).
