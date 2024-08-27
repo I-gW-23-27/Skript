@@ -28,6 +28,8 @@ Das Unterlagen aus dem Schuljahr 2023/2024 sind
 [hier](archive/programm_hs_23.md)
 zugänglich.
 
+Eine Anleitung für das Arbeiten in Python Virtual Environments findet
+sich [hier](allgemeines/anleitung_venv.md).
 
 ## Beurteilung
 
