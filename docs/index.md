@@ -10,7 +10,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | Datum | Thema |
 | ----- | ----- |
 | 26.08.24 | [Listen in Python](240826/einfuehrung.md) (Repetition) |
-| 02.09.24 | Manipulation von Listen in Python |
+| 02.09.24 | [Manipulation von Listen in Python](240902/listenmanipulation.ipynb) |
 | 09.09.24 | Python Dictionaries |
 | 16.09.24 | Pandas Series |
 | 23.09.24 | Pandas Dataframes |
