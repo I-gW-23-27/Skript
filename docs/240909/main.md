@@ -5,3 +5,17 @@ Elemente in einem Objekt zu bündeln. Um auf ein einzelnes Element
 zuzugreifen weisen sie jedoch einen entscheidenden Nachteil auf. Man
 muss wissen, an welcher Position sich das entsprechende Element in der
 jeweiligen Liste bzw. im jeweiligen Tupel befindet.
+
+An dieser Stelle kommen Python Dictionaries ins Spiel. In dieser
+Datenstruktur können wie in Listen oder Tupel beliebige Datentypen
+abgelegt werden. Im Gegensatz zu Listen und Tupeln erfolgt der Zugriff
+auf die Inhalte allerdings nicht über einen Index, sondern über einen
+Schlüssel. Dictinaries sind als *key* - *value* Paare angelegt.
+
+```python
+d = {
+    key: value,
+    key: value,
+    ...
+}
+```
