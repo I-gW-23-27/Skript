@@ -49,3 +49,6 @@ erstellten Dictionary `person` sieht das folgendermassen aus:
 Vorname: Hans
 Nachname: Muster
 ```
+
+Anwendungsübungen für verschiedene Operationen mit Dictionaries finden
+sich in diesem Arbeitsblatt.
