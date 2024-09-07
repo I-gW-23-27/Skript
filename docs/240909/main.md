@@ -2,7 +2,7 @@
 
 Listen und Tupel sind praktische Datenstruktuen in Python um mehrere
 Elemente in einem Objekt zu bündeln. Um auf ein einzelnes Element
-zuzugreifen weisen sie jedoch einen entscheidenden Nachteil auf. Man
+zuzugreifen, weisen sie jedoch einen entscheidenden Nachteil auf. Man
 muss wissen, an welcher Position sich das entsprechende Element in der
 jeweiligen Liste bzw. im jeweiligen Tupel befindet.
 
@@ -36,4 +36,16 @@ Dictionary aus dem obigen Beispiel sieht das folgendermassen aus:
 ```python
 >>>person['Vorname']
 'Hans'
+```
+
+Python Dictionaries lassen nicht nur den Zugriff auf ein einzelnes
+Element via 'key' zu. Es ist auch möglich, über ein Dictionary zu
+iterieren. Ein Möglichkeit ist eine `for` Schleife. Am Beispiel des oben
+erstellten Dictionary `person` sieht das folgendermassen aus:
+
+```python
+>>>for item in person:
+...    print(f'{item}: {person[item]}')
+Vorname: Hans
+Nachname: Muster
 ```
