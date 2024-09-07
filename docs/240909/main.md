@@ -19,3 +19,21 @@ d = {
     ...
 }
 ```
+
+Ein konkretes Dictionary `person` mit den Schlüsseln `Vorname` und
+`Familienname` sieht folgendermassen aus:
+
+```python
+person = {
+    'Vorname': 'Hans',
+    'Nachname': 'Muster',
+}
+```
+
+Auf einen konkreten Wert kann via 'key' zugegriffen werden. Für das
+Dictionary aus dem obigen Beispiel sieht das folgendermassen aus:
+
+```python
+>>>person['Vorname']
+'Hans'
+```
