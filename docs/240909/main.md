@@ -51,4 +51,4 @@ Nachname: Muster
 ```
 
 Anwendungsübungen für verschiedene Operationen mit Dictionaries finden
-sich in diesem Arbeitsblatt.
+sich in diesem [Arbeitsblatt](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240909/dictionaries.ipynb).
