@@ -12,7 +12,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 26.08.24 | [Listen in Python](240826/einfuehrung.md) (Repetition) |
 | 02.09.24 | [Manipulation von Listen in Python](240902/listenmanipulation.ipynb) |
 | 09.09.24 | [Python Dictionaries](240909/main.md) |
-| 16.09.24 | Pandas Series |
+| 16.09.24 | [Pandas Series](240916/main.md) |
 | 23.09.24 | Pandas Dataframes |
 | 21.10.24 | Datenvisualisierung |
 | 28.10.24 | Test |
