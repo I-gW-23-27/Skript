@@ -1,5 +1,7 @@
 # Die pandas Bibliothek
 
+(Das Arbeitsblatt zu den pandas Series findet sich [hier](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240916/timeline.ipynb).)
+
 pandas ist eine Python Bibliothek zur Datenanalyse. Sie stellt die
 beiden Datenstrukturen *Series* und *DataFrame* zur verfügung. Eine
 pandas Series ist eine eindimensionale und ein pandas DataFrame eine
