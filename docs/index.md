@@ -13,7 +13,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 02.09.24 | [Manipulation von Listen in Python](240902/listenmanipulation.ipynb) |
 | 09.09.24 | [Python Dictionaries](240909/main.md) |
 | 16.09.24 | [Pandas Series](240916/main.md) |
-| 23.09.24 | Pandas Dataframes |
+| 23.09.24 | [Pandas Dataframes](240923/staatsausgaben.ipynb) |
 | 21.10.24 | Datenvisualisierung |
 | 28.10.24 | Test |
 | 04.11.24 | Programmieren eines Taschenrechners |
