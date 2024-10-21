@@ -14,7 +14,7 @@ Arbeitsumgebung vorzubereiten.
 
 2. Python Virtual Environment anlegen
 3. Python Virtual Environment aktivieren
-4. Erforderliche Pakete installieren (jupyter, pandas, maptlotlib)
+4. Erforderliche Pakete installieren (jupyter, pandas, matplotlib)
 5. Jupyter Server starten
 6. Neues Notebook anlegen
 
