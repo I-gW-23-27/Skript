@@ -13,8 +13,20 @@ Arbeitsumgebung vorzubereiten.
    Vorschlag für die Benennung: `YYMMDD_stichwort`
 
 2. Python Virtual Environment anlegen
+   
+   ```shell
+   python -m venv venv
+   ```
 3. Python Virtual Environment aktivieren
+   
+   ```shell
+   venv\Scripts\activate
+   ```
 4. Erforderliche Pakete installieren (jupyter, pandas, matplotlib)
+   
+   ```shell
+   python -m pip install jupyter pandas matplotlib
+   ```
 5. Jupyter Server starten
 6. Neues Notebook anlegen
 
