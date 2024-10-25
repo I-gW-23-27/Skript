@@ -23,7 +23,7 @@ $$
 
 ### Verknüpfung von drei Werten
 
-\[
+$$
 \begin{array}{|c|c|c|c|}
     \hline
     A & B & C & A \land B \land C \\
@@ -38,7 +38,7 @@ $$
     1 & 1 & 1 & 1 \\
     \hline
 \end{array}
-\]
+$$
 
 ## Überblick über logische oder Verknüpfungen
 
@@ -48,7 +48,7 @@ den untenstehenden beiden Wahrheitstabellen dargestellt.
 
 ### Verknüpfung von zwei Werten
 
-\[
+$$
 \begin{array}{|c|c|c|}
     \hline
     A & B & A \lor B \\
@@ -59,11 +59,11 @@ den untenstehenden beiden Wahrheitstabellen dargestellt.
     1 & 1 & 1 \\
     \hline
 \end{array}
-\]
+$$
 
 ## Verknüpfung von drei Werten
 
-\[
+$$
 \begin{array}{|c|c|c|c|}
     \hline
     A & B & C & A \lor B \lor C \\
@@ -78,4 +78,4 @@ den untenstehenden beiden Wahrheitstabellen dargestellt.
     1 & 1 & 1 & 1 \\
     \hline
 \end{array}
-\]
+$$
