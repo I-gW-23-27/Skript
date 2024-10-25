@@ -22,7 +22,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 25.11.24 | Programmieren eines Taschenrechners |
 | 02.12.24 | Programmieren eines Taschenrechners |
 | 09.12.24 | Programmieren eines Taschenrechners |
-| 16.12.24 | Test |
+| 16.12.24 | Test OOP |
 
 
 Das Unterlagen aus dem Schuljahr 2023/2024 sind 
