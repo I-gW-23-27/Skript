@@ -16,7 +16,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 23.09.24 | [Pandas Dataframes](240923/staatsausgaben.ipynb) |
 |          | [Musterlösung](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240923/musterloesung_staatsausgaben.ipynb) |
 | 21.10.24 | [Datenvisualisierung](241021/main.md) |
-| 28.10.24 | Individuelle Prüfungsvorbereitung |
+| 28.10.24 | [Individuelle Prüfungsvorbereitung](241028/uebeungen_iterables.ipynb) |
 | 04.11.24 | Test |
 | 11.11.24 | Programmieren eines Taschenrechners |
 | 25.11.24 | Programmieren eines Taschenrechners |
