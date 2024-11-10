@@ -38,7 +38,7 @@ folgenden Inhalt:
 import datetime
 
 class Personalien:
-    def __init__(self, name : str, vorname : str, geburtsdatum : datetime):
+    def __init__(self, name : str, vorname : str, geburtsdatum : datetime.date):
         self.name = name
         self.vorname = vorname
         self.geburtsdatum = geburtsdatum
