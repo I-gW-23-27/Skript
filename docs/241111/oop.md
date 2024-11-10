@@ -43,3 +43,33 @@ class Personalien:
         self.vorname = vorname
         self.geburtsdatum = geburtsdatum
 ```
+
+Ein Klassenfile mit seinem (auskommentierten) Namen zu beginnen, erleichtert
+später die Übersicht zu behalten.
+
+Damit das Geburtsdatum als verarbeitbares Datum verwendet werden kann, wird als
+erstes die Python Klasse datetime importiert. Dies ermöglicht es, die Klasse um
+eine Methode `alter` zu ergänzen, welche das aktuelle Alter der modellierten
+Person berechnet. Anschliessend folgt die
+eigentliche Implementierung der Klasse Personalien.
+
+`class` ist das Schlüsselwort um eine Klasse zu erstellen. Das Schlüsselwort
+wird gefolgt vom Namen der Klasse. Dieser wird üblicherweise mit einem
+Grossbuchstaben begonnen, ansonsten gelten die gleichen Regeln wie bei der
+Vergabe von Namen für Variabeln.
+
+Innerhalb der Klasse wird als erstes die von Python zur Verfügung gestellte
+Methode `__init__` implementiert. Diese Methode wird auch als Konstruktor
+bezeichnet. Sie ermöglicht es, eine konkrete Instanz - ein Objekt - der Klasse
+Personalien anzulegen. Dazu werden ihr die Parameter self, name, vorname und
+geburtsdatum übergeben. self bezieht sich dabei auf das neu zu erstellende
+Objekt. Die Variabeln name, vorname und geburtsdatum sind das, was ihr Name
+sagt. Die entsprechenden Werte werden in der Methode den jeweiligen Feldern des
+Objekts zugewiesen.
+
+Eine konkrete Person - ein Objekt in Python - wird folgendermassen angelegt:
+
+```Python
+geburtsdatum = datetime.date(2010, 11, 11)
+mr_x = Personalien('Meier', 'Hans', geburtsdatum)
+```
