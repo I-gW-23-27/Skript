@@ -20,3 +20,8 @@ Schule die Noten und Absenzen. Die Bestehensvoraussetzungen werden mit einer
 Methode Promotionsentscheid kontrolliert. Die Personalien können in einer
 eigenen Klasse modelliert werden.
 
+Wenn Klassen modelliert werden, können diese in der Entwurfsphase als
+UML-Klassendiagramm graphisch dargestellt werden. Das obige Beispiel sieht dann
+wie in der folgenden Grafik dargestellt aus.
+
+![Beispiel UML-Klassendiagramm](beispiel.svg)
