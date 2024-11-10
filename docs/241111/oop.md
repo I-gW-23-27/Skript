@@ -25,3 +25,21 @@ UML-Klassendiagramm graphisch dargestellt werden. Das obige Beispiel sieht dann
 wie in der folgenden Grafik dargestellt aus.
 
 ![Beispiel UML-Klassendiagramm](beispiel.svg)
+
+## Klassen in Python
+
+Um eine Klasse in Python zu implementieren, kann ein eigenes Python File
+angelegt werden (.py). Ein solches File hat für das Beispiel Personalien den
+folgenden Inhalt:
+
+```Python
+# personalien.py
+
+import datetime
+
+class Personalien:
+    def __init__(self, name : str, vorname : str, geburtsdatum : datetime):
+        self.name = name
+        self.vorname = vorname
+        self.geburtsdatum = geburtsdatum
+```
