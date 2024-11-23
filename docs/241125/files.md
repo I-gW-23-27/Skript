@@ -89,3 +89,16 @@ Dabei übernehmen die einzelnen Zeilen im Listing die folgenden Aufgaben:
 * Die einzelnen Elemente eines jeden Eintrags des Dictionary werden in eine
   temporäre Liste `tmp` geschrieben.
 * Mit `destinationwriter.writerow(tmp)` werden die Listen ins .csv File geschrieben.
+
+Falls ein .csv File gelesen werden soll, ist folgendermassen vorzugehen:
+
+```Python
+with open('schulleitung.csv', 'r') as source:
+    reader = csv.reader(source, delimiter=',')
+    for line in reader:
+        print(line)
+```
+
+Dabei kann mit den Zeilen selbstverständlich auch etwas anderes gemacht werden,
+als sie anzuzeigen. Zu beachten ist, dass jede Zeile des .csv Files eine Liste
+mit Strings ist.
