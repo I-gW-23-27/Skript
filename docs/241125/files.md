@@ -39,3 +39,12 @@ Der Reihe nach, was beim Lesen anders ist als beim Schreiben:
 
 * `open` erhält neben dem Pfad zum File das Attribut `r` für *read*.
 * `inhalt = myfile.read()` weist den ausgelesenen Inhalt der Variabeln `inhalt` zu.
+
+Falls der Inhalt der Datei zeilenweise gelesen werden soll, kann der Code
+folgendermassen abgeändert werden:
+
+```Python
+with open('file.txt', 'r') as myfile:
+    for zeile in myfile:
+        print(zeile)
+```
