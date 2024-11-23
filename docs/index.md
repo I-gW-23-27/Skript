@@ -19,7 +19,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 28.10.24 | [Individuelle Prüfungsvorbereitung](241028/uebeungen_iterables.ipynb) |
 | 04.11.24 | Test |
 | 11.11.24 | Objektorientierte Programmierung: [Klassen](241111/oop.md) |
-| 25.11.24 | Programmieren eines Taschenrechners |
+| 25.11.24 | Objektorientierte Programmierung: [Kapselung](241125/main.md) |
 | 02.12.24 | Programmieren eines Taschenrechners |
 | 09.12.24 | Programmieren eines Taschenrechners |
 | 16.12.24 | Test OOP |
