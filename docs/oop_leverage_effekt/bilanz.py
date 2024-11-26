@@ -6,20 +6,43 @@ class Bilanz:
         self.passiven = passiven
         
     def get_verzinsliches_fk(self):
-        # TODO: implementieren einer Methode, welche das verzinsliche FK zurückgibt
+        '''
+        Die Funktion get_verzinsliches_fk Filtert aus den Passiven das
+        verzinsliche FK gemäss Kontenrahmen KMU aus und gibt die addierten Saldi
+        zurück.
+        
+        Rückgabewert:
+            float: Die Summe der Saldi des verzinslichen Fremdkapitals.
+        '''
         verzinsliches_fk = {}
-        for kto_nr, value in self.passiven.items():
+        for kto_nr, konto in self.passiven.items():
             if kto_nr >= 2400 and kto_nr < 2500:
-                verzinsliches_fk[kto_nr] = value
+                verzinsliches_fk[kto_nr] = konto
                 
                       
         total_verzinsliches_fk = 0
         
-        for kto_nr, value in verzinsliches_fk.items():
-            total_verzinsliches_fk += value[1]
+        for kto_nr, konto in verzinsliches_fk.items():
+            total_verzinsliches_fk += konto[1]
         
         return total_verzinsliches_fk
     
     def get_ek(self):
-        # TODO: implementieren einer Methode, welche das EK zurückgbit
-        pass
+        '''
+        Die Funktion get_ek Filtert aus den Passiven gemäss Kontentrahmen KMU
+        das EK und gibt die addierten Saldi der entsprechenden Konti zurück.
+        
+        Rückgabewert:
+            float: Die Summe der Saldi des Eigenkapitals.
+        '''
+        ek = {}
+        for kto_nr, konto in self.passiven.items():
+            if kto_nr >= 2800 and kto_nr < 3000:
+                ek[kto_nr] = konto
+        
+        total_ek = 0
+        
+        for kto_nr, konto in ek.items():
+            total_ek += konto[1]
+            
+        return total_ek
