@@ -46,3 +46,18 @@ class Bilanz:
             total_ek += konto[1]
             
         return total_ek
+    
+    def get_gk(self):
+        '''
+        Methode zur Berechnung des Gesamtkapitals.
+        
+        Rückgabewert:
+            float: Die Summe der Saldi der gesammten Passiven.
+        '''
+        
+        gk = 0
+        
+        for konto in self.passiven.values():
+            gk += konto[1]
+            
+        return gk
