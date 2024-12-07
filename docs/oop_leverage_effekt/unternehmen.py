@@ -4,9 +4,15 @@ from bilanz import Bilanz
 from erfolgsrechnung import Erfolgsrechnung
 
 class Unternehmen:
-    def __init__(self, bilanz, erfolgsrechnung) -> None:
-        self.bilanz = bilanz
-        self.erfolgsrechnung = erfolgsrechnung
+    def __init__(self, konti = {}) -> None:
+        if len(konti) == 0:
+            self.bilanz = Bilanz()
+            self.erfolgsrechnung = Erfolgsrechnung()
+        else:
+            self.bilanz = Bilanz()
+            self.erfolgsrechnung = Erfolgsrechnung()
+            self.bilanz.set_konti(konti)
+            self.erfolgsrechnung.set_konti(konti)
         
         
     def berechne_fk_zinssatz(self):
