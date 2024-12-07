@@ -1,5 +1,7 @@
 # unternehmen.py
 
+import csv
+
 from bilanz import Bilanz
 from erfolgsrechnung import Erfolgsrechnung
 
@@ -49,3 +51,25 @@ class Unternehmen:
         erfolg = self.erfolgsrechnung.get_erfolg()
         
         return (erfolg/ek) * 100
+    
+    def save_data(self):
+        with open('data.csv', mode='w', encoding='utf-8', newline='') as csv_file:
+            writer = csv.writer(csv_file)  # Übergabe des Dateiobjekts an csv.writer
+            
+            # Kopfzeile schreiben
+            writer.writerow(['KtoNr', 'Kto', 'Saldo'])
+            
+            # Daten schreiben
+            for ktonr, kto in self.bilanz.aktiven.items():
+                writer.writerow([ktonr, kto[0], kto[1]])
+                
+            for ktonr, kto in self.bilanz.passiven.items():
+                writer.writerow([ktonr, kto[0], kto[1]])
+                
+            for ktonr, kto in self.erfolgsrechnung.aufwand.items():
+                writer.writerow([ktonr, kto[0], kto[1]])
+            
+            for ktonr, kto in self.erfolgsrechnung.ertrag.items():
+                writer.writerow([ktonr, kto[0], kto[1]])
+                
+            

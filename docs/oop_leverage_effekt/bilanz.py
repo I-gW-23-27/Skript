@@ -12,6 +12,7 @@ class Bilanz:
                 self.aktiven[index] = [row['Kto'], row['Saldo']]
             elif index >= 2000 and index < 3000:
                 self.passiven[index] = [row['Kto'], row['Saldo']]
+                
         
     def get_verzinsliches_fk(self):
         '''
