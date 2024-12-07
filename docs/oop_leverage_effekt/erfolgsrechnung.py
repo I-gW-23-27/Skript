@@ -1,10 +1,18 @@
 # erfolgsrechnung.py
+import pandas as pd
 
 class Erfolgsrechnung:
-    def __init__(self, ertrag, aufwand) -> None:
+    def __init__(self, ertrag = {}, aufwand = {}) -> None:
         self.ertrag = ertrag
         self.aufwand = aufwand
         self.zinsaufwand = None
+        
+    def set_konti(self, df):
+        for index, row in df.iterrows():
+            if index >= 3000 and index < 4000:
+                self.ertrag[index] = [row['Kto'], row['Saldo']]
+            elif index >= 4000 and index < 9900:
+                self.aufwand[index] = [row['Kto'], row['Saldo']]        
         
     def get_betrieblicher_ertrag(self):
         betrieblicher_ertrag = 0
