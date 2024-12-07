@@ -6,12 +6,7 @@ class Bilanz:
         self.aktiven  = aktiven
         self.passiven = passiven
         
-    def set_konti(self, df):
-        for index, row in df.iterrows():
-            if index >= 1000 and index < 2000:
-                self.aktiven[index] = [row['Kto'], row['Saldo']]
-            elif index >= 2000 and index < 3000:
-                self.passiven[index] = [row['Kto'], row['Saldo']]
+      
                 
         
     def get_verzinsliches_fk(self):
