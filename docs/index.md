@@ -21,7 +21,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 11.11.24 | Objektorientierte Programmierung: [Klassen](241111/oop.md) |
 | 25.11.24 | Objektorientierte Programmierung: [Kapselung](241125/main.md) |
 | 02.12.24 | Objektorientierte Programmierung: [Importe](241202/main.md) |
-| 09.12.24 | Programmieren eines Taschenrechners |
+| 09.12.24 | Objektorientierte Programmierung: [Refactoring](241209/refactoring.md) |
 | 16.12.24 | Test OOP |
 
 
