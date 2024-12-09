@@ -1,7 +1,8 @@
 # erfolgsrechnung.py
+import pandas as pd
 
 class Erfolgsrechnung:
-    def __init__(self, ertrag, aufwand) -> None:
+    def __init__(self, ertrag = {}, aufwand = {}) -> None:
         self.ertrag = ertrag
         self.aufwand = aufwand
         self.zinsaufwand = None

@@ -1,9 +1,13 @@
 # bilanz.py
+import pandas as pd
 
 class Bilanz:
-    def __init__(self, aktiven, passiven):
+    def __init__(self, aktiven = {}, passiven = {}):
         self.aktiven  = aktiven
         self.passiven = passiven
+        
+      
+                
         
     def get_verzinsliches_fk(self):
         '''
