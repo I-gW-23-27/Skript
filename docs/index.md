@@ -24,6 +24,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 09.12.24 | Objektorientierte Programmierung: [Refactoring](241209/refactoring.md) |
 |          | [Stand des Projekts Leverage Effekt vor der Prüfung](oop_leverage_effekt/fileverzeichnis.md) |
 | 16.12.24 | Test OOP ([Lernziele](241209/lernziele.md)) |
+| 06.01.25 | [Netzwerke](250106/netzwerke.md) |
 
 
 Das Unterlagen aus dem Schuljahr 2023/2024 sind 
