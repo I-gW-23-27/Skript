@@ -23,7 +23,27 @@ detaillierte Beschreibung der einzelnen Schichten findet sich im entsprechenden
 
 Vom OSI Layer Modell werden technisch nicht alle Ebenen umgesetzt. Durchgesetzt
 hat sich das 
-[TCP/IP Referenzmodell](https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell).
+[TCP/IP
+Referenzmodell](https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)
+(Transmission Control Protocol/Internet Protocol). Dieses benutzt lediglich vier
+der im OSI Modell beschriebenen Schichten. Eine Netzwerkschicht für die
+physikalische Verbindung, eine Internetschicht für die Vermittlung zwischen den
+Computern, eine Transportschicht für die eigentliche Übermittlung der Daten
+sowie eine Anwendungsschicht für die Auslieferung der Daten an die konkrete
+Anwendung auf dem Computer.
 
-Grundlage für den Aufbau von Kommunikationsverbindungen im Internet ist das
-TCP/IP Protokoll.
+## IP Adressen
+
+Aktuell soll hier vor Allem die Internetschicht betrachtet werden. Ausgangspunkt
+für die entsprechenden Beobachtungen ist dabei die IP-Adresse. IP-Adressen geben
+jedem mit einem Computernetzwerk verbundenen Computer eine eindeutige Adresse.
+Über diese Adresse ist der Computer im Netzwerk erreichbar.
+
+Aktuell bestehen zwei Versionen von IP-Adressen nebeneinander - IPv4- und
+IPv6-Adressen. Eigentlich sollten die IPv6-Adressen die IPv4-Adressen ablösen.
+Dieser Prozess geht allerdings nur sehr langsam vonstatten. Daher muss man sich
+derzeit mit beiden Versionen der IP-Adressen auseinandersetzten.
+
+### IPv4
+
+
