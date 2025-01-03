@@ -46,4 +46,34 @@ derzeit mit beiden Versionen der IP-Adressen auseinandersetzten.
 
 ### IPv4
 
+IPv4-Adressen bestehen aus 32 Bits und werden in der Form 255.255.255.255
+dargestellt. Das ergibt total $2^{32} = 4'294'967'296$ Adressen. 
+
+Knapp 4.3 Mia Adressen reichen nicht aus, damit alle mit dem Internet
+verbundenen Rechner erreicht werden können. Um dieses Problem zu adressieren
+wurde einerseits die Adressierung mit IPv6-Adressen begonnen und andererseits
+innerhalb der IPv4-Adressen zwei Tricks angewendet.
+
+Der erste Trick im Adressraum von IPv4 ist die vergabe dynamischer
+IPv4-Adressen. Das bedeutet, dass die Internetanbieter eine IPv4-Adresse
+mehreren Kunden gleichzeitig zuteilen. Der Anbieter ist bei diesem Verfahren
+dafür verantwortlich, den Überblick zu behalten, welcher Rechner gerade unter
+welcher Adresse erreichbar ist.
+
+Der zweite Trick besteht in der Aufteilung der IPv4-Adressen in öffentliche und
+private Adressen. Dabei wird das Netzwerk in Subnetzwerke unterteilt. Das
+Subnetzwerk als ganzes wird dabei unter einer öffentlichen IPv4-Adresse
+erreicht. Innerhalb des Subnetzwerkes werden dann private Adressen vergeben. Das
+macht es theoretisch möglich, zu jeder öffentlichen Adresse nochmals alle
+privaten Adressen zu vergeben. Dies erhöht die Zahl verfügbarer Adressen
+deutlich. 
+
+Die privaten Interessen sind die drei
+Blöcke
+
+* 10.0.0.0 – 10.255.255.255
+* 172.16.0.0 – 172.31.255.255
+* 192.168.0.0 – 192.168.255.255.
+
+Alle anderen Adressen sind öffentliche Adressen.
 
