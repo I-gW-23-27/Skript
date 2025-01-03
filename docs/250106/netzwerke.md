@@ -63,7 +63,8 @@ welcher Adresse erreichbar ist.
 Der zweite Trick besteht in der Aufteilung der IPv4-Adressen in öffentliche und
 private Adressen. Dabei wird das Netzwerk in Subnetzwerke unterteilt. Das
 Subnetzwerk als ganzes wird dabei unter einer öffentlichen IPv4-Adresse
-erreicht. Innerhalb des Subnetzwerkes werden dann private Adressen vergeben. Das
+erreicht. Innerhalb des Subnetzwerkes werden dann private Adressen vergeben.
+Diese sind aus dem Internet nicht direkt erreichbar. Das
 macht es theoretisch möglich, zu jeder öffentlichen Adresse nochmals alle
 privaten Adressen zu vergeben. Dies erhöht die Zahl verfügbarer Adressen
 deutlich. 
@@ -76,4 +77,16 @@ Blöcke
 * 192.168.0.0 – 192.168.255.255.
 
 Alle anderen Adressen sind öffentliche Adressen.
+
+### IPv6
+
+Diese (neueren) Adressen bestehen aus 128 Bits und werden 
+[hexadezimal](https://de.wikipedia.org/wiki/Hexadezimalsystem)
+dargestellt. Eine IPv6-Adresse hat für die Darstellung das Format 
+2001:0db8:85a3:0000:0000:8a2e:0370:7344.
+
+Insgesamt stehen $2^{128}$, eine Zahl mit 39 Stellen, IPv6-Adressen zur
+Verfügung.
+
+Die Umstellung auf IPv6 wird noch einige Zeit in Anspruch nehmen.
 
