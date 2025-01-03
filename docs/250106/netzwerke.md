@@ -90,3 +90,25 @@ Verfügung.
 
 Die Umstellung auf IPv6 wird noch einige Zeit in Anspruch nehmen.
 
+## Domain Name System
+
+Für den Endnutzer sind IP-Adressen - weder IPv4 und schon gar nicht IPv6 - kaum
+direkt zu nutzen. Um dies zu umgehen wird eine dezentrale Datenbank betrieben,
+welche die Übersetzung von
+[URL](https://de.wikipedia.org/wiki/Uniform_Resource_Locator),
+wie zum Beispiel www.kbw.ch in IP-Adressen ermöglicht. Der Vorgang der
+Übersetzung einer URL in eine IP-Adresse wird als Namensauflösung (name
+resolution) bezeichnet. Das Datenbanksystem mit dem Adressverzeichnis
+hat den Namen *Domain Name System* (DNS).
+
+Damit einer der dezentralen DNS-Server erreicht werden kann, muss dessen Adresse
+auf dem lokalen Computer in der Systemeinstellung abgelegt sein. Welcher das auf
+einem konkreten Computer ist, findet sich in den Netzwerkeinstellungen des
+entsprechenden Computers (Netzwerk und Internet > Netzwerkzugang > Eigenschaften
+\> DNS-Server).
+
+## Beobachtung des Verbindungsaufbaus mit Wireshark
+
+Der Netzwerkverkehr eines Computers kann mit Hilfe von Wireshark beobachtet
+werden. 
+[Die Anleitung für die Installation von Wireshark findet sich hier.](https://www.wireshark.org/download.html)
