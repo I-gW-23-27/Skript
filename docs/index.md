@@ -10,7 +10,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 | Datum | Thema |
 | ----- | ----- |
-| 17.02.2025 | Kryptologie |
+| 17.02.2025 | Kryptologie: [Vigenère Chiffre](250217/main.md) |
 | 24.02.2025 | Kryptologie |
 | 17.03.2025 | Kryptologie |
 | 24.03.2025 | Kryptologie |
