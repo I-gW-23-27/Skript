@@ -40,3 +40,46 @@ der gleiche Text mit einer Caesar-Chiffre verschlüsselt worden ist.
 Es ist deutlich zu erkennen, dass die Verteilung dem gleichen Muster folgt -
 verschoben um fünf Positionen. Diese Auswertung ermöglicht die Entschlüsselung
 des Textes, ohne alle möglichen Schlüsselalphabete durchzuprobieren.
+
+## Vigenère Chiffre
+
+Bei der Vigenère Chiffre handelt es sich um eine polyalphabetische Chiffre. Das
+Verfahren ist nach Blaise de Vigenère (1523 - 1596) benannt. polyalphabetisch
+heisst, dass zur Verschlüsselung nicht eine Verschiebung vorgenommen wird
+sondern - nach jedem Buchstaben wechselnd - mehrere Verschiebungen
+vorgenommen werden.
+
+Um das zu erreichen, verwendet man ein sogenanntes Vigenère-Quadrat wie unten
+abgebildet. 
+
+![](vigenere_square_shading.svg)
+
+Für die Verschlüsselung eines Klartextes braucht das Vigenère Verfahren ein
+Schlüsselwort. Das Schlüsselwort sollte möglichst lang sein. Das folgende
+Beispiel soll zeigen, wie das Vigenère Verfahren funktioniert. Der zu
+verschlüsselnde Klartext lautet 'Kryptologie ist spannend' und der
+Schlüssel
+'Buelrain'. Als Hilfestellung werden Text und Schlüssel in einer Tabelle
+dargestellt.
+
+```
+kryptologieistspannend
+buelrainbuelrainbuelra
+```
+
+Der Schlüssel wir dabei ohne Wortabstand so oft wiederholt, bis die
+Buchstabenfolge des Schlüssels gleich lang ist, wie die Buchstabenfolge, welche
+zu verschlüsseln ist.  
+Als nächstes wird der zu verschlüsselnde Buchstabe in der Kopfzeile des Vigenère
+Quadrates gesucht. Damit wird die Spalte mit dem verschobenen Alphabet
+identifiziert. Der chiffrierte Buchstaben ergibt sich, indem in der Spalte mit
+den Zeilenköpfen der unter dem zu chiffrierenden Buchstaben befindliche
+Buchstabe des Schlüssels gesucht wird. Der Schnittpunkt der Zeile mit der vorher
+gefundenen Spalte entspricht dem chiffrierten Buchstaben.
+
+```
+kryptologieistspannend
+buelrainbuelrainbuelra
+
+LLCAKOTBHVITITACBHRPED
+```
