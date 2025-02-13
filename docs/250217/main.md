@@ -81,8 +81,34 @@ gefundenen Spalte entspricht dem chiffrierten Buchstaben.
 kryptologieistspannend
 buelrainbuelrainbuelra
 
-LLCAKOTBHVITITACBHRPED
+LLCAKOTBHCITJTACBHRPED
 ```
+
+Alternativ kann eine Verschlüsselung mit der Vigenère Chiffre auch mit modularer
+Arithmetik umgesetzt werde. Dazu wird jedem Buchstaben ein Zahlenwert nach dem
+Muster $a = 0, b = 1, ... , z = 25$ zugewiesen. Die Verschlüsselung erfolgt
+anschliessend nach der 'Formel' $C_i = (P_i + K_i) mod 26$ Wobei die Buchstaben
+$C$ für den chiffrierten Text, $P$ für den Klartext (Englisch *plain text*) und
+$K$ für den Schlüssel (Englisch *key*) stehen. Der Index $_i$ steht für den
+$i$-ten Buchstaben in der Textfolge.
+
+Das obige Beispiel stellt sich dann folgendermassen dar:
+
+```
+ k  r  y  p  t  o  l  o  g  i  e  i  s  t  s  p  a  n  n  e  n  d
+10 17 24 15 19 14 11 14 06 08 04 08 18 19 18 15 00 13 13 04 13 03
+ b  u  e  l  r  a  i  n  b  u  e  l  r  a  i  n  b  u  e  l  r  a
+01 20 04 11 17 00 08 13 01 20 04 11 17 00 08 13 01 20 04 11 17 00
+
+11 37 28 26 36 14 19 27 07 28 08 19 35 19 26 28 01 33 17 15 30 03
+
+11 11 02 00 10 14 19 01 07 02 08 19 09 19 00 02 01 07 17 15 04 03
+ L  L  C  A  K  O  T  B  H  C  I  T  J  T  A  C  B  H  R  P  E  D
+```
+
+Für die Entschlüsselung wird die 'Formel' folgendermassen umgekehrt: 
+$P_i = (C_i - K_i + 26) mod 26$. Die Addition von 26 in der Klammer erfolgt, um
+negative Zahlen zu vermeiden.
 
 Wie sich die Vigenère Verschlüsselung auf die Verteilung der Buchstaben
 auswirkt, kann untenstehender Grafik entnommen werden.
