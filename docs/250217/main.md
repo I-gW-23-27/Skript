@@ -88,3 +88,12 @@ Wie sich die Vigenère Verschlüsselung auf die Verteilung der Buchstaben
 auswirkt, kann untenstehender Grafik entnommen werden.
 
 ![](vigenere.svg)
+
+Wie unschwer zu erkennen ist, stellt sich die Verteilung der Buchstaben in einem
+polyalphabetisch verschlüsselten Text deutlich anders dar, als dies in normalen
+Text der Fall ist. Die Vigenère Chiffre galt daher während ungefähr 300 Jahren
+als 'la chiffre indéchiffrable'.
+
+Ein Spezialfall der Vigenère Chiffre ist tatsächlich nicht zu entschlüsseln. Das
+ist dann der Fall, wenn der Schlüssel länger ist als der Klartext.
+Man spricht in diesem Fall vom One-Time Pad.
