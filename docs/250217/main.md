@@ -83,3 +83,8 @@ buelrainbuelrainbuelra
 
 LLCAKOTBHVITITACBHRPED
 ```
+
+Wie sich die Vigenère Verschlüsselung auf die Verteilung der Buchstaben
+auswirkt, kann untenstehender Grafik entnommen werden.
+
+![](vigenere.svg)
