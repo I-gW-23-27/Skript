@@ -81,3 +81,43 @@ def caesar(input_file: str, shift: int, encryption: bool=True) -> None:
     text = text_cleaning(text)
     text = crypto(text, shift, encryption)
     text_writer(text)
+    
+def vigenere_chiffre(text: str, key: str, encrypt=True) -> str:
+    """
+    Implementiert die Vigenère-Verschlüsselung für einen gegebenen Klartext und
+    Schlüssel.
+    
+    Args:
+        klartext (str): Der zu verschlüsselnde Text schluessel (str): Das
+        Schlüsselwort für die Verschlüsselung
+    
+    Returns:
+        str: Der verschlüsselte Text
+    """
+    
+    # initialisiere den resultierenden Text
+    resulting_text = ''
+    
+    # bestimme die Schlüssellänge für die anschliessende Modulo-Operation
+    key_length = len(key)
+    
+    # itererie über den Eingabetext unter gleichzeitiger Erfassung des Index
+    for i, char in enumerate(text):
+        # berechne den Zahlwert des Buchstabens aus der ascii Tabelle
+        char_no = ord(char) - 97
+        key_no = ord(key[i % key_length]) - 97
+        
+        if encrypt == True:
+            # berechne den Zahlwert des verschlüsselten Buchstabens
+            ciph_no = (char_no + key_no) % 26
+        else:
+            # berechne den Zahlwert des entschlüsselten Buchstabens
+            ciph_no = (char_no + (26 - key_no)) % 26
+            
+         # übernehme das Zeichen aufgrund seines Zahlwertes aus der ascii Tabelle  
+        ciph = chr(ciph_no + 97)
+        
+        # füge den Buchstaben am resultierenden Text an
+        resulting_text += ciph
+    return resulting_text
+        
