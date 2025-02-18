@@ -120,4 +120,9 @@ def vigenere_chiffre(text: str, key: str, encrypt=True) -> str:
         # füge den Buchstaben am resultierenden Text an
         resulting_text += ciph
     return resulting_text
-        
+
+def vigenere(input_file: str, key: str, encryption: bool=True) -> None:
+    text = text_reader(input_file)
+    text = text_cleaning(text)
+    text = vigenere_chiffre(text, key, encryption)
+    text_writer(text)
