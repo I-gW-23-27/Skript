@@ -11,7 +11,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | Datum | Thema |
 | ----- | ----- |
 | 17.02.2025 | Kryptologie: [Vigenère Chiffre](250217/main.md) |
-|       | [Unterlagen für die Anwendungsübung](250217/unterlagen/chiffre.py) |
+|       | [Python Implementation von Vigenère](250217/unterlagen/chiffre.py) |
 | 24.02.2025 | Kryptologie |
 | 17.03.2025 | Kryptologie |
 | 24.03.2025 | Kryptologie |
