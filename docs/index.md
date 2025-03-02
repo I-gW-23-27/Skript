@@ -31,6 +31,9 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 Eine Anleitung für das Arbeiten in Python Virtual Environments findet
 sich [hier](allgemeines/anleitung_venv.md).
+[Hier](https://github.com/I-gW-23-27/Skript/blob/main/docs/allgemeines/jupyter_cheat_sheet.pdf) 
+kann eine Kurzanleitung für das
+Anlegen und Öffnen eines Jupyter Notebooks heruntergeladen werden.
 
 ## Beurteilung
 
