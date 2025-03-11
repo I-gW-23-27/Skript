@@ -37,3 +37,26 @@ Die Verschlüsselung erfolgt in den unten dargestellten Schritten.
 4. Der 'Wert' eines Knotens berechnet sich als Summe des dem Knoten zugeordneten
    Summanden und allen Summanden der Nachbarknoten.
 5. Der verschlüsselte Wert der Zahl ist die Folge der Werte der Knoten.
+
+Das Vorgehen soll an einem Beispiel verdeutlicht werden. Dem Beispiel liegt der
+folgende Graph zu Grunde.
+
+![](graph0.svg)
+
+In diesem Graphen wird die Zahl 999 verschlüsselt. Die Aufteilung in Summanden
+sieht folgendermassen aus:
+
+$$
+999 = 0 + 77 + 39 + 123 + 264 + 96 + 133 + 67 + 200
+$$
+
+Die Summanden werden folgendermassen in den Graphen eingetragen:
+
+![](graph1.svg)
+
+Nach der Addition der Nachbarn, stellt sich der Graph folgendermassen dar:
+
+![](graph2.svg)
+
+Der verschlüsselte Wert kann jetzt als Zahlenfolge
+123/570/229/426/827/770/306/570/627 übermittelt werden.
