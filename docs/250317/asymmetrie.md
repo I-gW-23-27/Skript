@@ -17,3 +17,10 @@ Die Einwegfunktion kann veröffentlicht werden, damit ein Absender mit deren
 Hilfe eine Botschaft verschlüsseln kann. Nur der Empfänger ist dann noch in der
 Lage, die Botschaft mit wenig Aufwand zu entschlüsseln. Allfällige 'Lauscher'
 können die Umkehrfunktion nicht innert nützlicher Frist berechnen.
+
+Weil Text als Zahlenfolge dargestellt werden kann, eignen sich mathematische
+Funktionen besonders gut für die Verschlüsselung von Texten. Im folgenden soll
+ein Modell für ein solches Verschlüsselungsverfahren vorgestellt werden.
+
+## Verschlüsselung mit Hilfe eines Graphen
+
