@@ -24,3 +24,16 @@ ein Modell für ein solches Verschlüsselungsverfahren vorgestellt werden.
 
 ## Verschlüsselung mit Hilfe eines Graphen
 
+Ein Graph besteht aus Knoten und Kanten. Die Knoten sind durch Kanten
+miteinander verbunden. Damit die Verschlüsselung mit Hilfe eines Graphen
+erfolgen kann, muss der Graph öffentlich bekannt und die Knoten Nummeriert sein.
+Die Verschlüsselung erfolgt in den unten dargestellten Schritten.
+
+1. Der Klartext wird als Folge von Zahlen dargestellt, welche folgendermassen
+   verschlüsselt werden:
+2. Die einzelnen Zahlen der Zahlenfolge werden in Summanden zerlegt. Die Zahl
+   der Summanden entspricht der Anzahl der Knoten im Graphen.
+3. Jeder Summand wird einem Knoten zugeordnet.
+4. Der 'Wert' eines Knotens berechnet sich als Summe des dem Knoten zugeordneten
+   Summanden und allen Summanden der Nachbarknoten.
+5. Der verschlüsselte Wert der Zahl ist die Folge der Werte der Knoten.
