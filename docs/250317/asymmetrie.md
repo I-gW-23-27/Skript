@@ -60,3 +60,22 @@ Nach der Addition der Nachbarn, stellt sich der Graph folgendermassen dar:
 
 Der verschlüsselte Wert kann jetzt als Zahlenfolge
 123/570/229/426/827/770/306/570/627 übermittelt werden.
+
+Um die ursprüngliche Zahl zu rekonstruieren, muss ein unberechtigter Lauscher
+das folgende Gleichungssystem lösen:
+
+$$
+c_1 = v_1 + v_4 \\
+c_2 = v_2 + v_5 + v_6 + v_7\\
+c_3 = v_3 + v_4 + v_8\\
+c_4 = v_1 + v_3 + v_4 + v_5\\
+c_5 = v_2+ v_4 + v_5 + v_6 + v_8 + v_9\\
+c_6 = v_2 + v_5 + v_6 + v_7 + v_9\\
+c_7 = v_2 + v_6 + v_7\\
+c_8 = v_3 + v_5 + v_8\\
+c_9 = v_5 + v_6 + v_8 + v_9\\
+$$
+
+Wobei $c_n$ die jeweilige übermittelte Zahl und $v_n$ der Summand im jeweiligen
+Knoten darstellt. Dieses Gleichungssystem ist noch innerhalb nützlicher Frist
+lösbar. Wenn der Graph aber grösser wird, stösst man bald an zeitliche Grenzen.
