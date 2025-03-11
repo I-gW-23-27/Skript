@@ -79,3 +79,19 @@ $$
 Wobei $c_n$ die jeweilige übermittelte Zahl und $v_n$ der Summand im jeweiligen
 Knoten darstellt. Dieses Gleichungssystem ist noch innerhalb nützlicher Frist
 lösbar. Wenn der Graph aber grösser wird, stösst man bald an zeitliche Grenzen.
+
+Viel einfacher ist die Lösung, wenn man den Graphen in seine dominierende
+Menge zerlegt. Eine dominierende Menge unterteilt den Graphen in Subgraphen.
+Dies so, dass innerhalb des Subgraphen die untereinander verbundenen Knoten mit einem einzigen Knoten verbunden sind.
+
+>## Definition Dominierende Menge
+>
+>Eine dominierende Menge in einem Graphen ist eine Teilmenge von Knoten mit
+>einer besonderen Eigenschaft: Jeder Knoten des Graphen, der nicht zu dieser
+>Teilmenge gehört, ist mit mindestens einem Knoten aus dieser Teilmenge
+>verbunden. Anders ausgedrückt: Von den Knoten der dominierenden Menge aus kann
+>man jeden anderen Knoten des Graphen mit genau einem Schritt erreichen. 
+>
+>![](graph_d.svg)
+
+Die Kenntnis der dominierenden Menge stellt in unserem Verschlüsselungsverfahren die "Hintertür" dar. Wer diese Menge kennt, kann das komplizierte Gleichungssystem umgehen und die ursprünglichen Werte deutlich einfacher rekonstruieren.
