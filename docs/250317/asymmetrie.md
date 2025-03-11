@@ -94,4 +94,13 @@ Dies so, dass innerhalb des Subgraphen die untereinander verbundenen Knoten mit 
 >
 >![](graph_d.svg)
 
-Die Kenntnis der dominierenden Menge stellt in unserem Verschlüsselungsverfahren die "Hintertür" dar. Wer diese Menge kennt, kann das komplizierte Gleichungssystem umgehen und die ursprünglichen Werte deutlich einfacher rekonstruieren.
+Die Kenntnis der dominierenden Menge stellt in unserem Verschlüsselungsverfahren
+die "Hintertür" dar. Wer diese Menge kennt, kann das komplizierte
+Gleichungssystem umgehen und die ursprünglichen Werte deutlich einfacher
+rekonstruieren. 
+
+In den Knoten $v_1$, $v_7$ und $v_8$ sind alle Summanden enthalten. Um die
+ursprüngliche Zahl zu rekonstruieren, reicht es also, die Werte dieser drei
+Knoten zu summieren. Das finden der dominierenden Menge ist aber ein schwierig
+zu lösendes Problem und stellt daher für den Lauscher eine unüberwindbare
+Schranke dar.
